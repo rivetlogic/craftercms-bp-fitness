@@ -1,0 +1,34 @@
+<config>
+	<category>
+		<label>General</label>
+        <component>
+        	<label>Overview</label>
+            <type>/component/component-overview</type>
+            <path>/site/components/page-sections</path>
+      	</component>
+        <component>
+        	<label>Trainers</label>
+            <type>/component/component-trainers</type>
+            <path>/site/components/page-sections</path>
+      	</component>
+        <component>
+        	<label>Catalog</label>
+            <type>/component/component-catalog</type>
+            <path>/site/components/page-sections</path>
+      	</component>
+        <component>
+        	<label>Quotes</label>
+            <type>/component/component-quotes</type>
+            <path>/site/components/page-sections</path>
+      	</component>
+        <component>
+        	<label>Newsletter</label>
+            <type>/component/component-newsletter</type>
+            <path>/site/components/page-sections</path>
+      	</component>
+	</category>
+    <browse>
+         <label>Page Sections</label>
+         <path>/site/components/page-sections</path>
+    </browse>
+</config>
