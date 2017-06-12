@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-personal-trainer</content-type>	<display-template>/templates/web/components/personal-trainer/personal-trainer.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c953</objectGroupId>
+	<objectId>c9537e22-2cbe-de14-1009-c62e8fe6cb8e</objectId>
+	<internal-name>Jenny</internal-name>
+	<trainerName>Jenny</trainerName>
+	<trainerTitle>Body Trainer</trainerTitle>
+	<file-name>jenny.xml</file-name>
+	<folder-name/>
+	<trainerDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription>
+	<trainerImage>/static-assets/images/trainer-img1.jpg</trainerImage>
+	<socialMediaLinks>	<item>	<url>http://www.facebook.com</url>
+	<socialNetwork>facebook</socialNetwork>
+	</item>	<item>	<url>http://www.twitter.com</url>
+	<socialNetwork>twitter</socialNetwork>
+	</item></socialMediaLinks>
+	<createdDate>5/11/2017 17:25:9</createdDate>
+	<createdDate_dt>5/11/2017 17:25:9</createdDate_dt>
+	<lastModifiedDate>5/11/2017 17:41:8</lastModifiedDate>
+	<lastModifiedDate_dt>5/11/2017 17:41:8</lastModifiedDate_dt>
+</component>

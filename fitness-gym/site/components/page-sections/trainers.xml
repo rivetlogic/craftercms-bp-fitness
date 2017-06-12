@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-trainers</content-type>	<display-template>/templates/web/components/trainer.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c2c3</objectGroupId>
+	<objectId>c2c3661f-33f6-9047-019f-2992600c3318</objectId>
+	<file-name>trainers.xml</file-name>
+	<folder-name/>
+	<internal-name>Trainers</internal-name>
+	<titleText>Our Trainers</titleText>
+	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
+	<trainerList>	<item>	<key>/site/components/personal-trainers/jenny.xml</key>
+	<value>Jenny</value>
+	<include>/site/components/personal-trainers/jenny.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/personal-trainers/marry.xml</key>
+	<value>Marry</value>
+	<include>/site/components/personal-trainers/marry.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/personal-trainers/olivia.xml</key>
+	<value>Olivia</value>
+	<include>/site/components/personal-trainers/olivia.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></trainerList>
+	<createdDate>5/11/2017 17:32:19</createdDate>
+	<createdDate_dt>5/11/2017 17:32:19</createdDate_dt>
+	<lastModifiedDate>5/11/2017 17:43:14</lastModifiedDate>
+	<lastModifiedDate_dt>5/11/2017 17:43:14</lastModifiedDate_dt>
+</component>

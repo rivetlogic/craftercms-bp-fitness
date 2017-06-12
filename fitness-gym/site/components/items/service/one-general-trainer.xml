@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-service</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cc88</objectGroupId>
+	<objectId>cc887c4e-d890-0212-883f-979ba62ff8dd</objectId>
+	<file-name>one-general-trainer.xml</file-name>
+	<folder-name/>
+	<internal-name>One General Trainer</internal-name>
+	<titleText>One General Trainer</titleText>
+	<description>One General Trainer</description>
+	<createdDate>5/18/2017 16:55:23</createdDate>
+	<createdDate_dt>5/18/2017 16:55:23</createdDate_dt>
+	<lastModifiedDate>5/18/2017 16:55:23</lastModifiedDate>
+	<lastModifiedDate_dt>5/18/2017 16:55:23</lastModifiedDate_dt>
+</component>

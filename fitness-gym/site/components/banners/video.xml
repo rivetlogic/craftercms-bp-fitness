@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-media-banner</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9306</objectGroupId>
+	<objectId>9306f78d-9961-f6be-c38d-a30ade5ddf65</objectId>
+	<bannerImages>	<item>	<bannerImage/>
+	</item>	<item>	<bannerImage/>
+	</item></bannerImages>
+	<file-name>video.xml</file-name>
+	<folder-name/>
+	<internal-name>Video Banner</internal-name>
+	<displayMedia>video</displayMedia>
+	<videoBackground>/static-assets/videos/gym-promotion.mp4</videoBackground>
+	<createdDate>5/29/2017 16:47:7</createdDate>
+	<createdDate_dt>5/29/2017 16:47:7</createdDate_dt>
+	<lastModifiedDate>5/29/2017 19:32:44</lastModifiedDate>
+	<lastModifiedDate_dt>5/29/2017 19:32:44</lastModifiedDate_dt>
+</component>

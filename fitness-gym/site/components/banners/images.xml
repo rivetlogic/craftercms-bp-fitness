@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-media-banner</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e6fb</objectGroupId>
+	<objectId>e6fb4f11-7dc7-9c43-7b10-85b92dc11eb5</objectId>
+	<bannerImages>	<item>	<bannerImage>/static-assets/images/home-bg-slider-img1.jpg</bannerImage>
+	</item>	<item>	<bannerImage>/static-assets/images/home-bg-slider-img2.jpg</bannerImage>
+	</item></bannerImages>
+	<internal-name>Images Banner</internal-name>
+	<file-name>images.xml</file-name>
+	<folder-name/>
+	<displayMedia>images</displayMedia>
+	<videoBackground/>
+	<createdDate>5/29/2017 19:34:55</createdDate>
+	<createdDate_dt>5/29/2017 19:34:55</createdDate_dt>
+	<lastModifiedDate>5/29/2017 19:34:55</lastModifiedDate>
+	<lastModifiedDate_dt>5/29/2017 19:34:55</lastModifiedDate_dt>
+</component>

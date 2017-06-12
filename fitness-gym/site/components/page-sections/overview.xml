@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-overview</content-type>	<display-template>/templates/web/components/overview.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>36c2</objectGroupId>
+	<objectId>36c2da6f-76b5-8881-7283-ea7cda1254a5</objectId>
+	<file-name>overview.xml</file-name>
+	<folder-name/>
+	<internal-name>Overview</internal-name>
+	<titleText>About Fitness</titleText>
+	<buttonText>Let us Begin</buttonText>
+	<sectionId>overview</sectionId>
+	<buttonSectionLink>#trainer</buttonSectionLink>
+	<displayButton>true</displayButton>
+	<displayBlockQuote>true</displayBlockQuote>
+	<imageSection>/static-assets/images/overview-img.jpg</imageSection>
+	<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.&lt;/p&gt;
+&lt;p&gt;Fitness web template includes total 2 pages. This is an index (main) page and another is a blog page.&lt;/p&gt;</description>
+	<quoteDescription>&lt;p&gt;Fitness is free website template that can be used for any company. You may download, modify and use this layout for your website.&lt;/p&gt;</quoteDescription>
+	<createdDate>5/12/2017 16:25:31</createdDate>
+	<createdDate_dt>5/12/2017 16:25:31</createdDate_dt>
+	<lastModifiedDate>5/24/2017 19:40:47</lastModifiedDate>
+	<lastModifiedDate_dt>5/24/2017 19:40:47</lastModifiedDate_dt>
+</component>

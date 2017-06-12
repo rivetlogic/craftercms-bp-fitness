@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-catalog-item-price</content-type>	<display-template>/templates/web/components/catalog-item/catalog-item-price.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>881d</objectGroupId>
+	<objectId>881dd6fb-568e-57b2-6444-336f08586e2f</objectId>
+	<file-name>best-fit.xml</file-name>
+	<folder-name/>
+	<internal-name>Best Fit</internal-name>
+	<titleText>Best Fit</titleText>
+	<price>550</price>
+	<buttonText>Sign Up Now</buttonText>
+	<displayButton>true</displayButton>
+	<services>	<item>	<key>/site/components/items/service//10-yoga-courses.xml</key>
+	<value>10 Yoga Courses</value>
+	<include>/site/components/items/service//10-yoga-courses.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service/gym-services.xml</key>
+	<value>GYM Services</value>
+	<include>/site/components/items/service/gym-services.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service//two-general-trainer.xml</key>
+	<value>Two General Trainers</value>
+	<include>/site/components/items/service//two-general-trainer.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service//20-thai-massages.xml</key>
+	<value>20 Thai Massages</value>
+	<include>/site/components/items/service//20-thai-massages.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service//25-aerobics.xml</key>
+	<value>25 Aerobics</value>
+	<include>/site/components/items/service//25-aerobics.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></services>
+	<createdDate>5/30/2017 20:38:16</createdDate>
+	<createdDate_dt>5/30/2017 20:38:16</createdDate_dt>
+	<lastModifiedDate>5/30/2017 20:38:16</lastModifiedDate>
+	<lastModifiedDate_dt>5/30/2017 20:38:16</lastModifiedDate_dt>
+</component>

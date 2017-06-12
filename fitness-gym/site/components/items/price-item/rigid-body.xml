@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-catalog-item-price</content-type>	<display-template>/templates/web/components/catalog-item/catalog-item-price.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ad8a</objectGroupId>
+	<objectId>ad8a4e0d-0860-c599-7edf-c864aa05b45d</objectId>
+	<file-name>rigid-body.xml</file-name>
+	<folder-name/>
+	<internal-name>Rigid Body</internal-name>
+	<titleText>Rigid Body</titleText>
+	<price>750</price>
+	<buttonText>Sign Up Now</buttonText>
+	<displayButton>true</displayButton>
+	<services>	<item>	<key>/site/components/items/service//three-personal-trainers.xml</key>
+	<value>Three Personal Trainers</value>
+	<include>/site/components/items/service//three-personal-trainers.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service/gym-services.xml</key>
+	<value>GYM Services</value>
+	<include>/site/components/items/service/gym-services.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service//15-yoga-courses.xml</key>
+	<value>15 Yoga Courses</value>
+	<include>/site/components/items/service//15-yoga-courses.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service/20-thai-massages.xml</key>
+	<value>20 Thai Massages</value>
+	<include>/site/components/items/service/20-thai-massages.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/items/service//35-aerobics.xml</key>
+	<value>35 Aerobics</value>
+	<include>/site/components/items/service//35-aerobics.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></services>
+	<createdDate>5/30/2017 20:49:18</createdDate>
+	<createdDate_dt>5/30/2017 20:49:18</createdDate_dt>
+	<lastModifiedDate>5/30/2017 20:49:18</lastModifiedDate>
+	<lastModifiedDate_dt>5/30/2017 20:49:18</lastModifiedDate_dt>
+</component>

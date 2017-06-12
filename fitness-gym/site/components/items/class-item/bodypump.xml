@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-catalog-item</content-type>	<display-template>/templates/web/components/catalog-item/catalog-item.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c2d0</objectGroupId>
+	<objectId>c2d0f3d4-612d-e833-9f3b-0ac60bb504dc</objectId>
+	<classDays>	<item>	<day>M</day>
+	</item>	<item>	<day>W</day>
+	</item></classDays>
+	<internal-name>Body Pump</internal-name>
+	<titleText>BodyPump</titleText>
+	<trainerName>John Doe</trainerName>
+	<file-name>bodypump.xml</file-name>
+	<folder-name/>
+	<classCategory>Strength</classCategory>
+	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
+	<startTime>05/18/2017 22:00:00</startTime>
+	<createdDate>5/18/2017 16:51:22</createdDate>
+	<createdDate_dt>5/18/2017 16:51:22</createdDate_dt>
+	<lastModifiedDate>5/18/2017 16:54:25</lastModifiedDate>
+	<lastModifiedDate_dt>5/18/2017 16:54:25</lastModifiedDate_dt>
+</component>

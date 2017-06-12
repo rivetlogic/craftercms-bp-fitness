@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-service</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4aff</objectGroupId>
+	<objectId>4aff925f-ce57-294b-2fa7-881fd357efbb</objectId>
+	<file-name>10-thai-massages.xml</file-name>
+	<folder-name/>
+	<internal-name>10 Thai Massages</internal-name>
+	<titleText>10 Thai Massages</titleText>
+	<description>10 Thai Massages</description>
+	<createdDate>5/30/2017 20:53:11</createdDate>
+	<createdDate_dt>5/30/2017 20:53:11</createdDate_dt>
+	<lastModifiedDate>5/30/2017 20:53:11</lastModifiedDate>
+	<lastModifiedDate_dt>5/30/2017 20:53:11</lastModifiedDate_dt>
+</component>

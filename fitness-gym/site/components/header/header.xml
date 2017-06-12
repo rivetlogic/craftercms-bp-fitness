@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-header</content-type>	<display-template>/templates/web/components/header.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2955</objectGroupId>
+	<objectId>29554485-5530-5382-3cff-121ccc04db39</objectId>
+	<file-name>header.xml</file-name>
+	<folder-name/>
+	<internal-name>Header</internal-name>
+	<gymName>Spartan GYM</gymName>
+	<h3FirstText>Welcome to Sparta</h3FirstText>
+	<h1SecondText>What is your profession?</h1SecondText>
+	<h1ThirdText/>
+	<buttonText>View More (+)</buttonText>
+	<mediaBanner>	<item>	<key>/site/components/banners/images.xml</key>
+	<value>Images Banner</value>
+	<include>/site/components/banners/images.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></mediaBanner>
+	<buttonSectionLink>#overview</buttonSectionLink>
+	<createdDate>5/10/2017 19:2:18</createdDate>
+	<createdDate_dt>5/10/2017 19:2:18</createdDate_dt>
+	<lastModifiedDate>5/29/2017 19:37:31</lastModifiedDate>
+	<lastModifiedDate_dt>5/29/2017 19:37:31</lastModifiedDate_dt>
+	<navigationMenuList>	<item>	<navigationMenuLabel>Home</navigationMenuLabel>
+	<navigationMenu>#home</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>About</navigationMenuLabel>
+	<navigationMenu>#overview</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>Trainers</navigationMenuLabel>
+	<navigationMenu>#trainer</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>Newsletter</navigationMenuLabel>
+	<navigationMenu>#newsletter</navigationMenu>
+	</item></navigationMenuList>
+	<controller/>
+</component>
