@@ -112,11 +112,38 @@ $(document).ready(function() {
 
   /* .modal-backdrop classes
   -------------------------------*/
+$('form').submit(function(event) {
+    event.preventDefault();
+    if (!this.checkValidity()) {
+        // If the form is invalid, submit it. The form won't actually submit;
+        // this will just cause the browser to display the native HTML5 error messages.
+        this.find('input[type=submit]').click()
+    } else {
+        var values = $(this).serialize();
+        $.ajax({
+            type: this.method,
+            url: this.action,
+            data: values,
+            success: function(data){
+                if (data.success) {
+                    $("#modal-transparent").modal();
+                } else {
+                    $('#fail-dialog').modal('show');
+                }
+            },
+            error: function(response) {
+                $('#fail-dialog').modal('show');
+            }
+        });
+
+    }
+});
+
 $(".modal-transparent").on('show.bs.modal', function () {
-  setTimeout( function() {
-    $(".modal-backdrop").addClass("modal-backdrop-transparent");
-  }, 0);
-  $("#newsletter-signup").submit();
+    setTimeout( function() {
+        $(".modal-backdrop").addClass("modal-backdrop-transparent");
+    }, 0);
+    //$("#newsletter-signup").submit();
 });
 
 $(".modal-transparent").on('hidden.bs.modal', function () {
