@@ -397,7 +397,15 @@ VIDEO BACKGROUND CSS
 }
 
 
+.trainer-image {
+    height: 366px !important;
+    width: 100%;
+    object-fit: cover;
+}
 
+.trainer-description {
+    height: 125px;
+}
 /*---------------------------------------
    Newsletter section              
 -----------------------------------------*/
