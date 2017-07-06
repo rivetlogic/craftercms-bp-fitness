@@ -1,3 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This configuration file controls the SideBar in Crafter Studio. The SideBar is the left bar that shows
+	different projections of the content in addition to other tools to assist in content authoring.
+
+	<contextNav>
+		<modulehook>
+			<name>dashboard</name>
+			<params>
+				<label>Dashboard</label>
+				<path>/site-dashboard</path>
+				<icon>  	               (optional icon customization - only one state (no tree link))
+					<class>fa-cog</class>  (change default icon - using Font Awesome class)
+					<styles> 	           (Change default icon styles - using css rules)
+						<color>#409a00</color>
+						<font-size>16px</font-size>
+					</styles>
+				</icon>
+				<roles>
+					<role>admin</role>
+					<role>developer</role>
+				</roles>
+				<label>Site Config</label>
+				<path>/site-config</path>
+				<showRootItem>true</showRootItem>
+				<onClick>preview</onClick>
+			</params>
+		</modulehook>
+	</contextNav>
+
+-->
 <contextNav>
 	<contexts>
 		<context>
@@ -6,10 +37,15 @@
 					<menuItems>
 						<menuItem>
 							<modulehooks>
-								<!-- site selector -->
+								<!-- dashboard -->
 								<modulehook>
-									<name>site-selector</name>
+									<name>dashboard</name>
+									<params>
+										<label>Dashboard</label>
+										<path>/site-dashboard</path>
+									</params>
 								</modulehook>
+
 								<!-- Site IA PAGES -->
 								<modulehook>
 									<name>wcm-root-folder</name>
@@ -21,6 +57,7 @@
 										<onClick>preview</onClick>
 									</params>
 								</modulehook>
+
 								<!-- COMPONENTS -->
 								<modulehook>
 									<name>wcm-root-folder</name>
@@ -29,56 +66,52 @@
 										<label>Components</label>
 										<path>/site/components</path>
 										<showRootItem>true</showRootItem>
-										<!--cannedSearches> <cannedSearch> <label>All Shout Boxes</label> 
-											<path>/site/components/shout-box</path> <insertAs>replace</insertAs> <newPath>/site/components/shout-box</newPath> 
-											<queryParams> <queryParam> <name>context</name> <value>/demo/component/shoutbox</value> 
-											</queryParam> <queryParam> <name>mode</name> <value>act</value> </queryParam> 
-											<queryParam> <name>selection</name> <value>-1</value> </queryParam> <queryParam> 
-											<name>presearch</name> <value>true</value> </queryParam> </queryParams> </cannedSearch> 
-											</cannedSearches -->
-
 									</params>
 								</modulehook>
+
 								<modulehook>
 									<name>wcm-assets-folder</name>
 									<showDivider>true</showDivider>
 									<params>
 										<label>Static Assets</label>
 										<path>/static-assets</path>
-										<!-- showRootItem>false</showRootItem -->
+										<showRootItem>true</showRootItem>
 										<onClick>none</onClick>
 									</params>
 								</modulehook>
+
 								<modulehook>
 									<name>wcm-assets-folder</name>
 									<showDivider>true</showDivider>
 									<params>
 										<label>Templates</label>
 										<path>/templates</path>
-										<!-- showRootItem>false</showRootItem -->
+										<showRootItem>true</showRootItem>
 										<onClick>none</onClick>
 									</params>
 								</modulehook>
 
 								<modulehook>
-									<name>analytics-dashboard</name>
-									<showDivider>true</showDivider>
-								</modulehook>
-								<modulehook>
-									<name>admin-console</name>
+									<name>wcm-assets-folder</name>
 									<showDivider>true</showDivider>
 									<params>
-										<roles>
-											<role>admin</role>
-										</roles>
+										<label>Scripts</label>
+										<path>/scripts</path>
+										<showRootItem>true</showRootItem>
+										<onClick>none</onClick>
 									</params>
 								</modulehook>
+
 								<modulehook>
-									<name>previewsync</name>
+									<name>site-config</name>
+									<showDivider>true</showDivider>
 									<params>
 										<roles>
 											<role>admin</role>
+											<role>developer</role>
 										</roles>
+										<label>Site Config</label>
+										<path>/site-config</path>
 									</params>
 								</modulehook>
 							</modulehooks>
