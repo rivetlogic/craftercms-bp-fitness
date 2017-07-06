@@ -8,7 +8,7 @@
 				<h2>${contentModel.titleText}</h2>
 				<p>${contentModel.description}</p>
 				<div class="newsletter_detail">
-					<form action="/api/1/services/message.json" method="post">
+					<form id="form-submit" action="/api/1/services/message.json" method="post">
 						<div class="col-md-6 col-sm-6">
 							<input name="name" type="text" class="form-control" id="name" placeholder="${contentModel.namePlaceHolder}" required="">
 					  	</div>
