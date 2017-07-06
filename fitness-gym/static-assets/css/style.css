@@ -397,7 +397,15 @@ VIDEO BACKGROUND CSS
 }
 
 
+.trainer-image {
+    height: 366px !important;
+    width: 100%;
+    object-fit: cover;
+}
 
+.trainer-description {
+    height: 125px;
+}
 /*---------------------------------------
    Newsletter section              
 -----------------------------------------*/
@@ -476,11 +484,10 @@ VIDEO BACKGROUND CSS
   position: relative;
   padding: 60px;
   -wekbit-transition: all 1000ms linear;
-  transition: all 1000ms linear;
 }
 
 .catalog-section .blog-thumb:hover {
-  background: url('../images/blog-thumb.jpg');
+  background: inherit;
    -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -675,6 +682,11 @@ VIDEO BACKGROUND CSS
   font-weight: bold;
 }
 
+.catalog-item-size {
+    height: 270px;
+    margin: 15px;
+}
+
 .blog-clear { clear: both; height: 30px; }
 
 /*---------------------------------------
@@ -697,6 +709,7 @@ VIDEO BACKGROUND CSS
   text-align: center;
   -webkit-flex: 0 1 330px;
   flex: 0 1 330px;
+  height: 785px;
 }
 
 .catalog-section .pricing__feature-list {

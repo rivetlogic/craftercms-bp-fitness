@@ -426,7 +426,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>/component/component-quote-item</value>
 								<type>undefined</type>
 						</property>
 					</properties>

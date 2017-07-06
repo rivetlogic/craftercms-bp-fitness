@@ -127,6 +127,7 @@ $('form').submit(function(event) {
             success: function(data){
                 if (data.success) {
                     $("#modal-transparent").modal();
+                    $('#form-submit')[0].reset();
                 } else {
                     $('#fail-dialog').modal('show');
                 }

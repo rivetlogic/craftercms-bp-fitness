@@ -441,7 +441,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;M&quot;,&quot;value&quot;:&quot;Monday&quot;},{&quot;key&quot;:&quot;K&quot;,&quot;value&quot;:&quot;Tuesday&quot;},{&quot;key&quot;:&quot;W&quot;,&quot;value&quot;:&quot;Wednesday&quot;},{&quot;key&quot;:&quot;T&quot;,&quot;value&quot;:&quot;Thursday&quot;},{&quot;key&quot;:&quot;F&quot;,&quot;value&quot;:&quot;Friday&quot;},{&quot;key&quot;:&quot;S&quot;,&quot;value&quot;:&quot;Saturday&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;M&quot;,&quot;value&quot;:&quot;Monday&quot;},{&quot;key&quot;:&quot;K&quot;,&quot;value&quot;:&quot;Tuesday&quot;},{&quot;key&quot;:&quot;W&quot;,&quot;value&quot;:&quot;Wednesday&quot;},{&quot;key&quot;:&quot;T&quot;,&quot;value&quot;:&quot;Thursday&quot;},{&quot;key&quot;:&quot;F&quot;,&quot;value&quot;:&quot;Friday&quot;},{&quot;key&quot;:&quot;S&quot;,&quot;value&quot;:&quot;Saturday&quot;},{&quot;key&quot;:&quot;D&quot;,&quot;value&quot;:&quot;Sunday&quot;}]</value>
 								<type>undefined</type>
 						</property>
 						<property>

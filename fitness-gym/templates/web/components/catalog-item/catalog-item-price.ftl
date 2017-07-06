@@ -4,10 +4,12 @@
 		<h3 class="pricing__title">${contentModel.titleText}</h3>
         <div class="pricing__price"><span class="pricing__currency">$</span>${contentModel.price}</div>
 			<ul class="pricing__feature-list">
-            	<#list contentModel.services.item as item>
-                	<#assign myContentItem =  siteItemService.getSiteItem(item.key) />
-                    <li class="pricing__feature">${myContentItem.titleText}</li>
-                </#list>
+			    <#if contentModel.services?? && contentModel.services.item??>
+                    <#list contentModel.services.item as item>
+                        <#assign myContentItem =  siteItemService.getSiteItem(item.key) />
+                        <li class="pricing__feature">${myContentItem.titleText}</li>
+                    </#list>
+                </#if>
            	</ul>
             <#if contentModel.displayButton = "true">
               	<button class="pricing__action">${contentModel.buttonText}</button>

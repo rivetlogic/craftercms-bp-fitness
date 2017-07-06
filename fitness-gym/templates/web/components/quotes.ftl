@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
-<section class="quotes-section parallax-section" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >
+<section id="testimonial" class="quotes-section parallax-section" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >
 	<div class="container">
 		<div class="row">
 			
