@@ -253,7 +253,7 @@
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>9</value>
 							<type>int</type>
 						</property>
 						<property>
