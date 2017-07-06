@@ -1,10 +1,10 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
  
-	<#if contentModel.imageBackground??>
-		<section class="catalog-section parallax-section" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
+	<#if contentModel.imageBackground?? && contentModel.imageBackground != "">
+		<section id="price" class="catalog-section parallax-section" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
     <#else>
-    	<section class="catalog-section parallax-section" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
+    	<section id="class" class="catalog-section parallax-section" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
 	</#if>
 	<div class="container">
 		<div class="row">
