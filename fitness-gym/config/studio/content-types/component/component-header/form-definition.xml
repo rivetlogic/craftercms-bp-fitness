@@ -589,7 +589,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>/component/component-media-banner</value>
 								<type>undefined</type>
 						</property>
 					</properties>
