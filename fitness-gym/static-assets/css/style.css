@@ -709,6 +709,7 @@ VIDEO BACKGROUND CSS
   text-align: center;
   -webkit-flex: 0 1 330px;
   flex: 0 1 330px;
+  height: 785px;
 }
 
 .catalog-section .pricing__feature-list {
