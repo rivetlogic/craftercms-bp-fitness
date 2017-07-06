@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.9s" <@studio.iceAttr iceGroup="iceCatalogItem" path=contentModel.storeUrl/> >
-	<div class="blog-thumb">
+	<div class="blog-thumb catalog-item-size">
   	<#assign classDays = "" />
   	<#list contentModel.classDays.item as row>
     	<#if classDays?has_content>

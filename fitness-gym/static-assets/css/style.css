@@ -683,6 +683,11 @@ VIDEO BACKGROUND CSS
   font-weight: bold;
 }
 
+.catalog-item-size {
+    height: 270px;
+    margin: 15px;
+}
+
 .blog-clear { clear: both; height: 30px; }
 
 /*---------------------------------------
