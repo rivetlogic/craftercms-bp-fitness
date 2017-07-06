@@ -13,10 +13,11 @@
 				<h2 style="color:${contentModel.titleColor}">${contentModel.titleText}</h2>
 				<p>${contentModel.description}</p>
 			</div>
-
-            <#list contentModel.items.item as class>
-                <@renderComponent component=class />
-            </#list>
+            <#if contentModel.items?? && contentModel.items.item??>
+                <#list contentModel.items.item as class>
+                    <@renderComponent component=class />
+                </#list>
+            </#if>
 		</div>
 	</div>
 </section>
