@@ -484,11 +484,10 @@ VIDEO BACKGROUND CSS
   position: relative;
   padding: 60px;
   -wekbit-transition: all 1000ms linear;
-  transition: all 1000ms linear;
 }
 
 .catalog-section .blog-thumb:hover {
-  background: url('../images/blog-thumb.jpg');
+  background: inherit;
    -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
