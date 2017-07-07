@@ -106,7 +106,7 @@
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>100000</value>
+							<value>300</value>
 							<type>int</type>
 						</property>
 						<property>
