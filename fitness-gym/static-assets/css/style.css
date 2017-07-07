@@ -97,7 +97,8 @@ VIDEO BACKGROUND CSS
 
 .header-video__teaser-video {
   width: 100%;
-  height: auto; 
+  min-height: 400px;
+  object-fit: cover;
 }
 
 .header-video__media {
