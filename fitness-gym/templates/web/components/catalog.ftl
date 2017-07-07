@@ -2,7 +2,7 @@
 
  
 	<#if contentModel.imageBackground?? && contentModel.imageBackground != "">
-		<section id="price" class="catalog-section parallax-section" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
+		<section id="price" class="catalog-section parallax-section prices-background" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
     <#else>
     	<section id="class" class="catalog-section parallax-section" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
 	</#if>

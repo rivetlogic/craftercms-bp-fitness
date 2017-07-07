@@ -406,13 +406,20 @@ VIDEO BACKGROUND CSS
 .trainer-description {
     height: 125px;
 }
+
+.prices-background {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: initial !important;
+}
 /*---------------------------------------
    Newsletter section              
 -----------------------------------------*/
 #newsletter {
     background: url('../images/newsletter-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: initial !important;
     color: #ffffff;
     padding-top: 12rem;
     padding-bottom: 12rem;
