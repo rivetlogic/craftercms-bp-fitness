@@ -12,7 +12,7 @@
                 </#if>
            	</ul>
             <#if contentModel.displayButton = "true">
-              	<button class="pricing__action">${contentModel.buttonText}</button>
+              	<button class="pricing__action" onclick="location.href = '${contentModel.buttonUrl}';">${contentModel.buttonText}</button>
           	</#if>
 	</div>
 </div>
