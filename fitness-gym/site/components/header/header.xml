@@ -12,24 +12,28 @@
 	<h1SecondText>What is your profession?</h1SecondText>
 	<h1ThirdText/>
 	<buttonText>View More (+)</buttonText>
-	<mediaBanner>	<item>	<key>/site/components/banners/images.xml</key>
-	<value>Images Banner</value>
-	<include>/site/components/banners/images.xml</include>
+	<mediaBanner>	<item>	<key>/site/components/banners/video.xml</key>
+	<value>Video Banner</value>
+	<include>/site/components/banners/video.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></mediaBanner>
 	<buttonSectionLink>#overview</buttonSectionLink>
 	<createdDate>5/10/2017 19:2:18</createdDate>
 	<createdDate_dt>5/10/2017 19:2:18</createdDate_dt>
-	<lastModifiedDate>5/29/2017 19:37:31</lastModifiedDate>
-	<lastModifiedDate_dt>5/29/2017 19:37:31</lastModifiedDate_dt>
+	<lastModifiedDate>7/7/2017 15:40:24</lastModifiedDate>
+	<lastModifiedDate_dt>7/7/2017 15:40:24</lastModifiedDate_dt>
 	<navigationMenuList>	<item>	<navigationMenuLabel>Home</navigationMenuLabel>
 	<navigationMenu>#home</navigationMenu>
 	</item>	<item>	<navigationMenuLabel>About</navigationMenuLabel>
 	<navigationMenu>#overview</navigationMenu>
 	</item>	<item>	<navigationMenuLabel>Trainers</navigationMenuLabel>
 	<navigationMenu>#trainer</navigationMenu>
-	</item>	<item>	<navigationMenuLabel>Newsletter</navigationMenuLabel>
-	<navigationMenu>#newsletter</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>Workouts</navigationMenuLabel>
+	<navigationMenu>#class</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>Prices</navigationMenuLabel>
+	<navigationMenu>#price</navigationMenu>
+	</item>	<item>	<navigationMenuLabel>Testimonials</navigationMenuLabel>
+	<navigationMenu>#testimonial</navigationMenu>
 	</item></navigationMenuList>
 	<controller/>
 </component>
