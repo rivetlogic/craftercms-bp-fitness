@@ -360,7 +360,7 @@ VIDEO BACKGROUND CSS
   margin-top: 72px;
   margin-bottom: 32px;
   padding: 0px;
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #trainer .trainer-thumb .trainer-overlay {
@@ -718,6 +718,7 @@ VIDEO BACKGROUND CSS
   -webkit-flex: 0 1 330px;
   flex: 0 1 330px;
   height: 785px;
+  cursor: pointer !important;
 }
 
 .catalog-section .pricing__feature-list {
