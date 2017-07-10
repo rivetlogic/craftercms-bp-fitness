@@ -7,7 +7,7 @@
 	<file-name>prices.xml</file-name>
 	<folder-name/>
 	<internal-name>Prices</internal-name>
-	<titleText>Our Pricess</titleText>
+	<titleText>Our Prices</titleText>
 	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
 	<items>	<item>	<key>/site/components/items/price-item/healthy.xml</key>
 	<value>Healthy</value>
