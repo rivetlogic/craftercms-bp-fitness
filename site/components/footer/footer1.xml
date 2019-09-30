@@ -23,13 +23,13 @@
 	<file-name>footer1.xml</file-name>
 	<folder-name/>
 	<tcs_description>Nunc id turpis tincidunt dui volutpat hendrerit et efficitur dolor. Morbi quis tempor felis, ut dictum ipsum. Praesent venenatis rutrum interdum.</tcs_description>
-	<ss_morningFrom>05/22/2017 10:00:00</ss_morningFrom>
-	<ss_morningTo>05/23/2017 03:00:00</ss_morningTo>
-	<ss_eveningFrom>05/22/2017 20:00:00</ss_eveningFrom>
-	<ss_eveningTo>05/23/2017 01:00:00</ss_eveningTo>
-	<createdDate>5/22/2017 20:19:31</createdDate>
-	<createdDate_dt>5/22/2017 20:19:31</createdDate_dt>
-	<lastModifiedDate>5/22/2017 20:52:54</lastModifiedDate>
-	<lastModifiedDate_dt>5/22/2017 20:52:54</lastModifiedDate_dt>
+	<ss_morningFrom>2017-05-22T10:00:00.000Z</ss_morningFrom>
+	<ss_morningTo>2017-05-23T03:00:00.000Z</ss_morningTo>
+	<ss_eveningFrom>2017-05-22T20:00:00.000Z</ss_eveningFrom>
+	<ss_eveningTo>2017-05-23T01:00:00.000Z</ss_eveningTo>
+	<createdDate>2017-5-22T20:19:31.000Z</createdDate>
+	<createdDate_dt>2017-5-22T20:19:31.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-22T20:52:54.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-22T20:52:54.000Z</lastModifiedDate_dt>
 	<ss_titleText>Session</ss_titleText>
 </component>

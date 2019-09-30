@@ -32,9 +32,9 @@
 	<include>/site/components/items/service//35-aerobics.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></services>
-	<createdDate>5/30/2017 20:49:18</createdDate>
-	<createdDate_dt>5/30/2017 20:49:18</createdDate_dt>
-	<lastModifiedDate>7/7/2017 16:55:26</lastModifiedDate>
-	<lastModifiedDate_dt>7/7/2017 16:55:26</lastModifiedDate_dt>
+	<createdDate>2017-5-30T20:49:18.000Z</createdDate>
+	<createdDate_dt>2017-5-30T20:49:18.000Z</createdDate_dt>
+	<lastModifiedDate>2017-7-7T16:55:26.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-7-7T16:55:26.000Z</lastModifiedDate_dt>
 	<buttonUrl>#newsletter</buttonUrl>
 </component>

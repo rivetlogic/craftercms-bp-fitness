@@ -22,8 +22,8 @@
 	<include>/site/components/items/quotes-item/quote2.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></quotes>
-	<createdDate>5/19/2017 19:11:54</createdDate>
-	<createdDate_dt>5/19/2017 19:11:54</createdDate_dt>
-	<lastModifiedDate>5/22/2017 18:17:15</lastModifiedDate>
-	<lastModifiedDate_dt>5/22/2017 18:17:15</lastModifiedDate_dt>
+	<createdDate>2017-5-19T19:11:54.000Z</createdDate>
+	<createdDate_dt>2017-5-19T19:11:54.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-22T18:17:15.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-22T18:17:15.000Z</lastModifiedDate_dt>
 </component>

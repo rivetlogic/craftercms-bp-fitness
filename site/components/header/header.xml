@@ -18,10 +18,10 @@
 	<disableFlattening>false</disableFlattening>
 	</item></mediaBanner>
 	<buttonSectionLink>#overview</buttonSectionLink>
-	<createdDate>5/10/2017 19:2:18</createdDate>
-	<createdDate_dt>5/10/2017 19:2:18</createdDate_dt>
-	<lastModifiedDate>7/7/2017 15:40:24</lastModifiedDate>
-	<lastModifiedDate_dt>7/7/2017 15:40:24</lastModifiedDate_dt>
+	<createdDate>2017-5-10T19:2:18.000Z</createdDate>
+	<createdDate_dt>2017-5-10T19:2:18.000Z</createdDate_dt>
+	<lastModifiedDate>2017-7-7T15:40:24.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-7-7T15:40:24.000Z</lastModifiedDate_dt>
 	<navigationMenuList>	<item>	<navigationMenuLabel>Home</navigationMenuLabel>
 	<navigationMenu>#home</navigationMenu>
 	</item>	<item>	<navigationMenuLabel>About</navigationMenuLabel>

@@ -14,9 +14,9 @@
 	<folder-name/>
 	<classCategory>Strength</classCategory>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
-	<startTime>05/18/2017 22:00:00</startTime>
-	<createdDate>5/18/2017 16:51:22</createdDate>
-	<createdDate_dt>5/18/2017 16:51:22</createdDate_dt>
-	<lastModifiedDate>5/18/2017 16:54:25</lastModifiedDate>
-	<lastModifiedDate_dt>5/18/2017 16:54:25</lastModifiedDate_dt>
+	<startTime>2017-05-18T22:00:00.000Z</startTime>
+	<createdDate>2017-5-18T16:51:22.000Z</createdDate>
+	<createdDate_dt>2017-5-18T16:51:22.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-18T16:54:25.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-18T16:54:25.000Z</lastModifiedDate_dt>
 </component>
