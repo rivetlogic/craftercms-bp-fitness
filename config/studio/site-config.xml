@@ -5,8 +5,8 @@
 
 -->
 <site-config>
-    <wem-project>{siteName}</wem-project>
-    <display-name>{siteName}</display-name>
+    <wem-project>events-bp</wem-project>
+    <display-name>events-bp</display-name>
     <default-timezone>EST5EDT</default-timezone>
 
     <repository rootPrefix="/site">
