@@ -6,8 +6,8 @@
 -->
 <site-config>
    <version>3</version>
-   <wem-project>events-bp</wem-project>
-   <display-name>events-bp</display-name>
+   <wem-project>{siteName}</wem-project>
+   <display-name>{siteName}</display-name>
    <default-timezone>EST5EDT</default-timezone>
    <repository rootPrefix="/site"><!-- default inheritance file name -->
       <level-descriptor>crafter-level-descriptor.level.xml</level-descriptor>
