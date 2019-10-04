@@ -11,7 +11,7 @@
                     </#list>
                 </#if>
            	</ul>
-            <#if contentModel.displayButton_b = "true">
+            <#if contentModel.displayButton_b>
               	<button class="pricing__action" onclick="location.href = '${contentModel.buttonUrl_s}';">${contentModel.buttonText_t}</button>
           	</#if>
 	</div>
