@@ -5,7 +5,7 @@
 	<objectGroupId>c595</objectGroupId>
 	<objectId>c59563eb-0e3c-4536-5277-0c8c81e2e84f</objectId>
 	<internal-name>GYM Services</internal-name>
-	<titleText>GYM Services</titleText>
+	<titleText_t>GYM Services</titleText_t>
 	<file-name>gym-services.xml</file-name>
 	<folder-name/>
 	<description>GYM Services</description>

@@ -9,7 +9,7 @@
 	<file-name>cx-worx.xml</file-name>
 	<folder-name/>
 	<internal-name>CX Worx</internal-name>
-	<titleText>CX Worx</titleText>
+	<titleText_t>CX Worx</titleText_t>
 	<trainerName>John Doe</trainerName>
 	<classCategory>Cardio</classCategory>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>

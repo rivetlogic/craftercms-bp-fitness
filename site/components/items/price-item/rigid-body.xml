@@ -7,7 +7,7 @@
 	<file-name>rigid-body.xml</file-name>
 	<folder-name/>
 	<internal-name>Rigid Body</internal-name>
-	<titleText>Rigid Body</titleText>
+	<titleText_t>Rigid Body</titleText_t>
 	<price>750</price>
 	<buttonText>Sign Up Now</buttonText>
 	<displayButton>true</displayButton>

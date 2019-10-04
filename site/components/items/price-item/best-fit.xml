@@ -7,7 +7,7 @@
 	<file-name>best-fit.xml</file-name>
 	<folder-name/>
 	<internal-name>Best Fit</internal-name>
-	<titleText>Best Fit</titleText>
+	<titleText_t>Best Fit</titleText_t>
 	<price>550</price>
 	<buttonText>Sign Up Now</buttonText>
 	<displayButton>true</displayButton>

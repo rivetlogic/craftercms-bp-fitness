@@ -5,7 +5,7 @@
 		<div class="row" <@studio.iceAttr iceGroup="iceTrainersHeader" path=contentModel.storeUrl /> >
 
 			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
-				<h2>${contentModel.titleText}</h2>
+				<h2>${contentModel.titleText_t}</h2>
 				<p>${contentModel.description}</p>
 			</div>
 

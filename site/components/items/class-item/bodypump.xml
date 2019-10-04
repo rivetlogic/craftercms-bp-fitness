@@ -8,7 +8,7 @@
 	</item>	<item>	<day>W</day>
 	</item></classDays>
 	<internal-name>Body Pump</internal-name>
-	<titleText>BodyPump</titleText>
+	<titleText_t>BodyPump</titleText_t>
 	<trainerName>John Doe</trainerName>
 	<file-name>bodypump.xml</file-name>
 	<folder-name/>

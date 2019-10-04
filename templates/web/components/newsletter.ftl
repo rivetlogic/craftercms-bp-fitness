@@ -5,7 +5,7 @@
 		<div class="row">
 
 			<div class="wow fadeInUp col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s" <@studio.iceAttr iceGroup="iceNewsletter" path=contentModel.storeUrl /> >
-				<h2>${contentModel.titleText}</h2>
+				<h2>${contentModel.titleText_t}</h2>
 				<p>${contentModel.description}</p>
 				<div class="newsletter_detail">
 					<form id="form-submit" action="/api/1/services/message.json" method="post">

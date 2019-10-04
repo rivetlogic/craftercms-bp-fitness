@@ -7,7 +7,7 @@
 	<file-name>healthy.xml</file-name>
 	<folder-name/>
 	<internal-name>Healthy</internal-name>
-	<titleText>Healthy</titleText>
+	<titleText_t>Healthy</titleText_t>
 	<price>350</price>
 	<buttonText>Sign Up Now</buttonText>
 	<displayButton>true</displayButton>

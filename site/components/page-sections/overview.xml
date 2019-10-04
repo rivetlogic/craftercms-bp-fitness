@@ -7,7 +7,7 @@
 	<file-name>overview.xml</file-name>
 	<folder-name/>
 	<internal-name>Overview</internal-name>
-	<titleText>About Fitness</titleText>
+	<titleText_t>About Fitness</titleText_t>
 	<buttonText>Let us Begin</buttonText>
 	<sectionId>overview</sectionId>
 	<buttonSectionLink>#trainer</buttonSectionLink>

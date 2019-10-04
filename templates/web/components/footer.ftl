@@ -5,12 +5,12 @@
 		<div class="row">
 
 			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s" <@studio.iceAttr iceGroup="iceContentText" path=contentModel.storeUrl/> >
-				<h2>${contentModel.tcs_titleText}</h2>
+				<h2>${contentModel.tcs_titleText_t}</h2>
 				<p>${contentModel.tcs_description}</p>
 			</div>
 
 			<div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.9s" <@studio.iceAttr iceGroup="iceSession" path=contentModel.storeUrl/> >
-				<h2>${contentModel.ss_titleText}</h2>
+				<h2>${contentModel.ss_titleText_t}</h2>
 					<div>
 						<h5>Morning</h5>
 						<h4>
@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="wow fadeInUp col-md-3 col-sm-4" data-wow-delay="1s" <@studio.iceAttr iceGroup="iceSocial" path=contentModel.storeUrl/> >
-				<h2>${contentModel.sns_titleText}</h2>
+				<h2>${contentModel.sns_titleText_t}</h2>
 				<ul class="social-icon">
 					<#list contentModel.socialNetwork.item as row>
                         <li><a href="${row.sns_url}" class="fa fa-${row.sns_socialNetwork} wow fadeIn" data-wow-delay="1s"></a></li>

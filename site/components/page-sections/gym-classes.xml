@@ -5,7 +5,7 @@
 	<objectGroupId>9330</objectGroupId>
 	<objectId>9330e9b6-331e-1093-f682-715a31719a91</objectId>
 	<internal-name>Classes</internal-name>
-	<titleText>Workouts</titleText>
+	<titleText_t>Workouts</titleText_t>
 	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
 	<file-name>gym-classes.xml</file-name>
 	<folder-name/>

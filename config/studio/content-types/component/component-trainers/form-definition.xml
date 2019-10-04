@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>titleText</id>
+               <id>titleText_t</id>
                <iceId>iceTrainersHeader</iceId>
                <title>Title Text</title>
                <description/>

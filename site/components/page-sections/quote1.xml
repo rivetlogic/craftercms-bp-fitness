@@ -7,7 +7,7 @@
 	<file-name>quote1.xml</file-name>
 	<folder-name/>
 	<internal-name>Quotes</internal-name>
-	<titleText>Testimonials</titleText>
+	<titleText_t>Testimonials</titleText_t>
 	<displayTitleDescription>true</displayTitleDescription>
 	<titleColor>#333</titleColor>
 	<quoteStyle>quote</quoteStyle>

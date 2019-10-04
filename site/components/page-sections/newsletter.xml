@@ -7,7 +7,7 @@
 	<file-name>newsletter.xml</file-name>
 	<folder-name/>
 	<internal-name>Newsletter</internal-name>
-	<titleText>Signup Newsletter</titleText>
+	<titleText_t>Signup Newsletter</titleText_t>
 	<namePlaceHolder>Name</namePlaceHolder>
 	<emailPlaceHolder>Email</emailPlaceHolder>
 	<buttonText>Send Message</buttonText>

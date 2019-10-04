@@ -8,7 +8,7 @@
 	</item>	<item>	<day>F</day>
 	</item></classDays>
 	<internal-name>Body Combat</internal-name>
-	<titleText>Body Combat</titleText>
+	<titleText_t>Body Combat</titleText_t>
 	<trainerName>John Doe</trainerName>
 	<file-name>body-combat.xml</file-name>
 	<folder-name/>

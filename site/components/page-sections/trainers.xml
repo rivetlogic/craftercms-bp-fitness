@@ -7,7 +7,7 @@
 	<file-name>trainers.xml</file-name>
 	<folder-name/>
 	<internal-name>Trainers</internal-name>
-	<titleText>Our Trainers</titleText>
+	<titleText_t>Our Trainers</titleText_t>
 	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
 	<trainerList>	<item>	<key>/site/components/personal-trainers/jenny.xml</key>
 	<value>Jenny</value>
