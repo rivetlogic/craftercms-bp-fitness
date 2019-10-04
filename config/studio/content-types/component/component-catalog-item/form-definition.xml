@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>classCategory</id>
+               <id>classCategory_s</id>
                <iceId>iceCatalogItem</iceId>
                <title>Class Category</title>
                <description/>

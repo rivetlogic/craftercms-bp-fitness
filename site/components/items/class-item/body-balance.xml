@@ -12,7 +12,7 @@
 	<internal-name>Body Balance</internal-name>
 	<titleText_t>Body Balance</titleText_t>
 	<trainerName>Joh Does</trainerName>
-	<classCategory>Flexibility</classCategory>
+	<classCategory_s>Flexibility</classCategory_s>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
 	<startTime>2017-05-30T20:00:00.000Z</startTime>
 	<createdDate>2017-5-30T20:30:31.000Z</createdDate>

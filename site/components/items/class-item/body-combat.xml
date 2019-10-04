@@ -12,7 +12,7 @@
 	<trainerName>John Doe</trainerName>
 	<file-name>body-combat.xml</file-name>
 	<folder-name/>
-	<classCategory>Cardio</classCategory>
+	<classCategory_s>Cardio</classCategory_s>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
 	<startTime>2017-05-30T20:00:00.000Z</startTime>
 	<createdDate>2017-5-30T20:26:44.000Z</createdDate>

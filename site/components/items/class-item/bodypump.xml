@@ -12,7 +12,7 @@
 	<trainerName>John Doe</trainerName>
 	<file-name>bodypump.xml</file-name>
 	<folder-name/>
-	<classCategory>Strength</classCategory>
+	<classCategory_s>Strength</classCategory_s>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
 	<startTime>2017-05-18T22:00:00.000Z</startTime>
 	<createdDate>2017-5-18T16:51:22.000Z</createdDate>
