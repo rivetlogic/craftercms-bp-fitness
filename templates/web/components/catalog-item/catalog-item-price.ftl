@@ -2,7 +2,7 @@
 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1s" <@studio.iceAttr iceGroup="iceCatalogItem" path=contentModel.storeUrl/>>
 	<div class="pricing__item">
 		<h3 class="pricing__title">${contentModel.titleText_t}</h3>
-        <div class="pricing__price"><span class="pricing__currency">$</span>${contentModel.price}</div>
+        <div class="pricing__price"><span class="pricing__currency">$</span>${contentModel.price_t}</div>
 			<ul class="pricing__feature-list">
 			    <#if contentModel.services?? && contentModel.services.item??>
                     <#list contentModel.services.item as item>

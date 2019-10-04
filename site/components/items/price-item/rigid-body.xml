@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Rigid Body</internal-name>
 	<titleText_t>Rigid Body</titleText_t>
-	<price>750</price>
+	<price_t>750</price_t>
 	<buttonText>Sign Up Now</buttonText>
 	<displayButton>true</displayButton>
 	<services>	<item>	<key>/site/components/items/service//three-personal-trainers.xml</key>

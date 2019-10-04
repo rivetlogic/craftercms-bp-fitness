@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Best Fit</internal-name>
 	<titleText_t>Best Fit</titleText_t>
-	<price>550</price>
+	<price_t>550</price_t>
 	<buttonText>Sign Up Now</buttonText>
 	<displayButton>true</displayButton>
 	<services>	<item>	<key>/site/components/items/service//10-yoga-courses.xml</key>
