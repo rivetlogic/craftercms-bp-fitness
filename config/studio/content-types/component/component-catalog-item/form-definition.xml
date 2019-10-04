@@ -262,7 +262,7 @@
             </field>
             <field>
                <type>date-time</type>
-               <id>startTime</id>
+               <id>startTime_dt</id>
                <iceId>iceCatalogItem</iceId>
                <title>Start Time</title>
                <description/>

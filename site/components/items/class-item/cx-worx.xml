@@ -13,7 +13,7 @@
 	<trainerName_t>John Doe</trainerName_t>
 	<classCategory_s>Cardio</classCategory_s>
 	<classImage_s>/static-assets/images/blog-thumb.jpg</classImage_s>
-	<startTime>2017-05-31T00:00:00.000Z</startTime>
+	<startTime_dt>2017-05-31T00:00:00.000Z</startTime_dt>
 	<createdDate>2017-5-30T20:33:34.000Z</createdDate>
 	<createdDate_dt>2017-5-30T20:33:34.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-30T20:33:34.000Z</lastModifiedDate>
