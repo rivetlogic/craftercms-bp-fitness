@@ -9,7 +9,7 @@
 	</item></classDays>
 	<internal-name>Body Pump</internal-name>
 	<titleText_t>BodyPump</titleText_t>
-	<trainerName>John Doe</trainerName>
+	<trainerName_t>John Doe</trainerName_t>
 	<file-name>bodypump.xml</file-name>
 	<folder-name/>
 	<classCategory_s>Strength</classCategory_s>

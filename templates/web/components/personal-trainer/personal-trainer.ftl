@@ -5,7 +5,7 @@
 		<img src="${contentModel.trainerImage}" class="img-responsive trainer-image" alt="Trainer">
 		<div class="trainer-overlay">
 			<div class="trainer-des">
-				<h2>${contentModel.trainerName}</h2>
+				<h2>${contentModel.trainerName_t}</h2>
 				<h3>${contentModel.trainerTitle}</h3>
 				<ul class="social-icon">
 				    <#if contentModel.socialMediaLinks?? && contentModel.socialMediaLinks.item??>

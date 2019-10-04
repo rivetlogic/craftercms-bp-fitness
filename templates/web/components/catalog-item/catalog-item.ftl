@@ -13,6 +13,6 @@
     <span class="blog-date">${contentModel.classCategory_s} / ${classDays} - ${(contentModel.startTime?keep_after(" "))?keep_before_last(":")}</span>
     <h3 class="blog-title">${contentModel.titleText_t}</h3>
     
-	<h5 id="blog-author">by ${contentModel.trainerName}</h5>
+	<h5 id="blog-author">by ${contentModel.trainerName_t}</h5>
   </div>
 </div>

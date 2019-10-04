@@ -171,7 +171,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>trainerName</id>
+               <id>trainerName_t</id>
                <iceId>iceCatalogItem</iceId>
                <title>Trainer Name</title>
                <description/>

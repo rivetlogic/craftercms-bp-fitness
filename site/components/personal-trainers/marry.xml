@@ -5,7 +5,7 @@
 	<objectGroupId>e805</objectGroupId>
 	<objectId>e8053182-03cc-8d37-33af-23ecb5e7a141</objectId>
 	<internal-name>Marry</internal-name>
-	<trainerName>Marry</trainerName>
+	<trainerName_t>Marry</trainerName_t>
 	<trainerTitle>Fitness Trainer</trainerTitle>
 	<trainerDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription>
 	<file-name>marry.xml</file-name>

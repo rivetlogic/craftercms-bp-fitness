@@ -9,7 +9,7 @@
 	</item></classDays>
 	<internal-name>Body Combat</internal-name>
 	<titleText_t>Body Combat</titleText_t>
-	<trainerName>John Doe</trainerName>
+	<trainerName_t>John Doe</trainerName_t>
 	<file-name>body-combat.xml</file-name>
 	<folder-name/>
 	<classCategory_s>Cardio</classCategory_s>

@@ -7,7 +7,7 @@
 	<file-name>olivia.xml</file-name>
 	<folder-name/>
 	<internal-name>Olivia</internal-name>
-	<trainerName>Olivia</trainerName>
+	<trainerName_t>Olivia</trainerName_t>
 	<trainerTitle>Yoga Teacher</trainerTitle>
 	<trainerDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription>
 	<trainerImage>/static-assets/images/trainer-img3.jpg</trainerImage>

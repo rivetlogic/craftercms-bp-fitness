@@ -10,7 +10,7 @@
 	<folder-name/>
 	<internal-name>CX Worx</internal-name>
 	<titleText_t>CX Worx</titleText_t>
-	<trainerName>John Doe</trainerName>
+	<trainerName_t>John Doe</trainerName_t>
 	<classCategory_s>Cardio</classCategory_s>
 	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
 	<startTime>2017-05-31T00:00:00.000Z</startTime>
