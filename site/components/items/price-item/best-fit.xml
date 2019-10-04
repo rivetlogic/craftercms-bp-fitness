@@ -11,7 +11,7 @@
 	<price_t>550</price_t>
 	<buttonText_t>Sign Up Now</buttonText_t>
 	<displayButton_b>true</displayButton_b>
-	<services>	<item>	<key>/site/components/items/service//10-yoga-courses.xml</key>
+	<services_o>	<item>	<key>/site/components/items/service//10-yoga-courses.xml</key>
 	<value>10 Yoga Courses</value>
 	<include>/site/components/items/service//10-yoga-courses.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -31,7 +31,7 @@
 	<value>25 Aerobics</value>
 	<include>/site/components/items/service//25-aerobics.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></services>
+	</item></services_o>
 	<createdDate>2017-5-30T20:38:16.000Z</createdDate>
 	<createdDate_dt>2017-5-30T20:38:16.000Z</createdDate_dt>
 	<lastModifiedDate>2017-7-7T16:55:20.000Z</lastModifiedDate>

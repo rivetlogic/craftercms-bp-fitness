@@ -11,7 +11,7 @@
 	<price_t>750</price_t>
 	<buttonText_t>Sign Up Now</buttonText_t>
 	<displayButton_b>true</displayButton_b>
-	<services>	<item>	<key>/site/components/items/service//three-personal-trainers.xml</key>
+	<services_o>	<item>	<key>/site/components/items/service//three-personal-trainers.xml</key>
 	<value>Three Personal Trainers</value>
 	<include>/site/components/items/service//three-personal-trainers.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -31,7 +31,7 @@
 	<value>35 Aerobics</value>
 	<include>/site/components/items/service//35-aerobics.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></services>
+	</item></services_o>
 	<createdDate>2017-5-30T20:49:18.000Z</createdDate>
 	<createdDate_dt>2017-5-30T20:49:18.000Z</createdDate_dt>
 	<lastModifiedDate>2017-7-7T16:55:26.000Z</lastModifiedDate>

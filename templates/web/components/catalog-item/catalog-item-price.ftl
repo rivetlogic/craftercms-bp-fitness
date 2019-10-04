@@ -4,8 +4,8 @@
 		<h3 class="pricing__title">${contentModel.titleText_t}</h3>
         <div class="pricing__price"><span class="pricing__currency">$</span>${contentModel.price_t}</div>
 			<ul class="pricing__feature-list">
-			    <#if contentModel.services?? && contentModel.services.item??>
-                    <#list contentModel.services.item as item>
+			    <#if contentModel.services_o?? && contentModel.services_o.item??>
+                    <#list contentModel.services_o.item as item>
                         <#assign myContentItem =  siteItemService.getSiteItem(item.key) />
                         <li class="pricing__feature">${myContentItem.titleText_t}</li>
                     </#list>

@@ -290,7 +290,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>services</id>
+               <id>services_o</id>
                <iceId>iceCatalogItem</iceId>
                <title>Services</title>
                <description/>
