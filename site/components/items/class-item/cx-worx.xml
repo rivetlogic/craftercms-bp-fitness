@@ -4,8 +4,8 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>a0df</objectGroupId>
 	<objectId>a0dfc517-f50f-caf4-2049-5f82562230a0</objectId>
-	<classDays>	<item>	<day>T</day>
-	</item></classDays>
+	<classDays_o>	<item>	<day>T</day>
+	</item></classDays_o>
 	<file-name>cx-worx.xml</file-name>
 	<folder-name/>
 	<internal-name>CX Worx</internal-name>

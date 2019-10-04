@@ -330,7 +330,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>classDays</id>
+               <id>classDays_o</id>
                <iceId>iceCatalogItem</iceId>
                <title>Class Days</title>
                <description/>

@@ -4,9 +4,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3e9f</objectGroupId>
 	<objectId>3e9fcb6f-5c43-8905-d701-56ce1d740a32</objectId>
-	<classDays>	<item>	<day>M</day>
+	<classDays_o>	<item>	<day>M</day>
 	</item>	<item>	<day>F</day>
-	</item></classDays>
+	</item></classDays_o>
 	<internal-name>Body Combat</internal-name>
 	<titleText_t>Body Combat</titleText_t>
 	<trainerName_t>John Doe</trainerName_t>

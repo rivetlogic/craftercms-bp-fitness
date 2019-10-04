@@ -10,7 +10,7 @@
 		  	<#assign classDays = classDays + row.day />        
   		</#if>
 	</#list>
-    <span class="blog-date">${contentModel.classCategory_s} / ${classDays} - ${(contentModel.startTime_dt?keep_after(" "))?keep_before_last(":")}</span>
+    <span class="blog-date">${contentModel.classCategory_s} / ${classDays_o} - ${(contentModel.startTime_dt?keep_after(" "))?keep_before_last(":")}</span>
     <h3 class="blog-title">${contentModel.titleText_t}</h3>
     
 	<h5 id="blog-author">by ${contentModel.trainerName_t}</h5>
