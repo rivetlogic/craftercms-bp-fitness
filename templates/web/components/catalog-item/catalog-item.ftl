@@ -5,9 +5,9 @@
   	<#assign classDays = "" />
   	<#list contentModel.classDays.item as row>
     	<#if classDays?has_content>
-		  	<#assign classDays = classDays + " | " + row.day />
+		  	<#assign classDays = classDays + " | " + row.day_s />
         <#else>
-		  	<#assign classDays = classDays + row.day />        
+		  	<#assign classDays = classDays + row.day_s />        
   		</#if>
 	</#list>
     <span class="blog-date">${contentModel.classCategory_s} / ${classDays_o} - ${(contentModel.startTime_dt?keep_after(" "))?keep_before_last(":")}</span>

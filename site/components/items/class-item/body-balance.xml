@@ -4,8 +4,8 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>09bc</objectGroupId>
 	<objectId>09bced24-1bfe-0bb5-c64e-ef3842291f3b</objectId>
-	<classDays_o>	<item>	<day>K</day>
-	</item>	<item>	<day>W</day>
+	<classDays_o>	<item>	<day_s>K</day_s>
+	</item>	<item>	<day_s>W</day_s>
 	</item></classDays_o>
 	<file-name>body-balance.xml</file-name>
 	<folder-name/>
