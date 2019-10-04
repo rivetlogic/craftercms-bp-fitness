@@ -13,8 +13,8 @@
 				<h2 style="color:${contentModel.titleColor_s}">${contentModel.titleText_t}</h2>
 				<p>${contentModel.description_t}</p>
 			</div>
-            <#if contentModel.items?? && contentModel.items.item??>
-                <#list contentModel.items.item as class>
+            <#if contentModel.items_o?? && contentModel.items_o.item??>
+                <#list contentModel.items_o.item as class>
                     <@renderComponent component=class />
                 </#list>
             </#if>

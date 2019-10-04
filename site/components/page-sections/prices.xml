@@ -9,7 +9,7 @@
 	<internal-name>Prices</internal-name>
 	<titleText_t>Our Prices</titleText_t>
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
-	<items>	<item>	<key>/site/components/items/price-item/healthy.xml</key>
+	<items_o>	<item>	<key>/site/components/items/price-item/healthy.xml</key>
 	<value>Healthy</value>
 	<include>/site/components/items/price-item/healthy.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -21,7 +21,7 @@
 	<value>Rigid Body</value>
 	<include>/site/components/items/price-item/rigid-body.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></items>
+	</item></items_o>
 	<createdDate>2017-5-18T16:40:33.000Z</createdDate>
 	<createdDate_dt>2017-5-18T16:40:33.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-30T20:51:33.000Z</lastModifiedDate>

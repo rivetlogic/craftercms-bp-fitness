@@ -9,7 +9,7 @@
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<file-name>gym-classes.xml</file-name>
 	<folder-name/>
-	<items>	<item>	<key>/site/components/items/class-item/bodypump.xml</key>
+	<items_o>	<item>	<key>/site/components/items/class-item/bodypump.xml</key>
 	<value>Body Pump</value>
 	<include>/site/components/items/class-item/bodypump.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -25,7 +25,7 @@
 	<value>Body Balance</value>
 	<include>/site/components/items/class-item/body-balance.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></items>
+	</item></items_o>
 	<createdDate>2017-5-15T20:4:21.000Z</createdDate>
 	<createdDate_dt>2017-5-15T20:4:21.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-30T20:54:21.000Z</lastModifiedDate>

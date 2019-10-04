@@ -224,7 +224,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>items</id>
+               <id>items_o</id>
                <iceId>iceCatalog</iceId>
                <title>Items</title>
                <description/>
