@@ -1,8 +1,8 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
  
-	<#if contentModel.imageBackground?? && contentModel.imageBackground != "">
-		<section id="price" class="catalog-section parallax-section prices-background" style="background: url('${contentModel.imageBackground}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
+	<#if contentModel.imageBackground_s?? && contentModel.imageBackground_s != "">
+		<section id="price" class="catalog-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
     <#else>
     	<section id="class" class="catalog-section parallax-section" <@studio.iceAttr iceGroup="iceCatalog" path=contentModel.storeUrl /> >
 	</#if>

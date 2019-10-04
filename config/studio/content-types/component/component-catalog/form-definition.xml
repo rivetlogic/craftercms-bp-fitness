@@ -272,7 +272,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>imageBackground</id>
+               <id>imageBackground_s</id>
                <iceId>iceCatalog</iceId>
                <title>Image Background</title>
                <description/>
