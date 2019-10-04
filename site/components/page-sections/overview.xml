@@ -11,7 +11,7 @@
 	<buttonText>Let us Begin</buttonText>
 	<sectionId>overview</sectionId>
 	<buttonSectionLink>#trainer</buttonSectionLink>
-	<displayButton>true</displayButton>
+	<displayButton_b>true</displayButton_b>
 	<displayBlockQuote>true</displayBlockQuote>
 	<imageSection>/static-assets/images/overview-img.jpg</imageSection>
 	<description_t>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.&lt;/p&gt;

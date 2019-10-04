@@ -18,7 +18,7 @@
 					<h2>${contentModel.titleText_t}</h2>
 					${contentModel.description_t}
                     
-                    <#if contentModel.displayButton == 'true'>
+                    <#if contentModel.displayButton_b == 'true'>
 						<a href="${contentModel.buttonSectionLink}" class="btn btn-default smoothScroll" <@studio.iceAttr iceGroup="iceButton" path=contentModel.storeUrl /> >${contentModel.buttonText}</a>
                     </#if>
 				</div>

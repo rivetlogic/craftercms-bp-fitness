@@ -299,7 +299,7 @@
          <fields>
             <field>
                <type>checkbox</type>
-               <id>displayButton</id>
+               <id>displayButton_b</id>
                <iceId>iceButton</iceId>
                <title>Display Button</title>
                <description/>

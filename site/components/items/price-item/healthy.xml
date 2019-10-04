@@ -10,7 +10,7 @@
 	<titleText_t>Healthy</titleText_t>
 	<price_t>350</price_t>
 	<buttonText>Sign Up Now</buttonText>
-	<displayButton>true</displayButton>
+	<displayButton_b>true</displayButton_b>
 	<services>	<item>	<key>/site/components/items/service/5-yoga-courses.xml</key>
 	<value>5 Yoga Courses</value>
 	<include>/site/components/items/service/5-yoga-courses.xml</include>

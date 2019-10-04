@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>checkbox</type>
-               <id>displayButton</id>
+               <id>displayButton_b</id>
                <iceId>iceCatalogItem</iceId>
                <title>Display Button</title>
                <description/>
