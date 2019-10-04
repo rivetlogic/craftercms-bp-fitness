@@ -16,7 +16,7 @@
 							<input name="email" type="email" class="form-control" id="email" placeholder="${contentModel.emailPlaceHolder}" required="">
 					  	</div>
 						<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-							<input name="submit" type="submit" class="form-control" id="submit" value="${contentModel.buttonText}" >
+							<input name="submit" type="submit" class="form-control" id="submit" value="${contentModel.buttonText_t}" >
 						</div>
 				  	</form>
 

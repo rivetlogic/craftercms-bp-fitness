@@ -10,7 +10,7 @@
 	<titleText_t>Signup Newsletter</titleText_t>
 	<namePlaceHolder>Name</namePlaceHolder>
 	<emailPlaceHolder>Email</emailPlaceHolder>
-	<buttonText>Send Message</buttonText>
+	<buttonText_t>Send Message</buttonText_t>
 	<description_t>Get discounts for your personal fitness and gym services now.</description_t>
 	<backgroundImage>/static-assets/images/newsletter-bg.jpg</backgroundImage>
 	<createdDate>2017-5-12T13:40:20.000Z</createdDate>

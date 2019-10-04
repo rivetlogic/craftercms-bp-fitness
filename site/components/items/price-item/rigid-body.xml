@@ -9,7 +9,7 @@
 	<internal-name>Rigid Body</internal-name>
 	<titleText_t>Rigid Body</titleText_t>
 	<price_t>750</price_t>
-	<buttonText>Sign Up Now</buttonText>
+	<buttonText_t>Sign Up Now</buttonText_t>
 	<displayButton_b>true</displayButton_b>
 	<services>	<item>	<key>/site/components/items/service//three-personal-trainers.xml</key>
 	<value>Three Personal Trainers</value>

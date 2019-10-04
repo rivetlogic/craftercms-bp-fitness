@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Overview</internal-name>
 	<titleText_t>About Fitness</titleText_t>
-	<buttonText>Let us Begin</buttonText>
+	<buttonText_t>Let us Begin</buttonText_t>
 	<sectionId>overview</sectionId>
 	<buttonSectionLink>#trainer</buttonSectionLink>
 	<displayButton_b>true</displayButton_b>

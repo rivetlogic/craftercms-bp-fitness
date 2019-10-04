@@ -9,7 +9,7 @@
 	<internal-name>Best Fit</internal-name>
 	<titleText_t>Best Fit</titleText_t>
 	<price_t>550</price_t>
-	<buttonText>Sign Up Now</buttonText>
+	<buttonText_t>Sign Up Now</buttonText_t>
 	<displayButton_b>true</displayButton_b>
 	<services>	<item>	<key>/site/components/items/service//10-yoga-courses.xml</key>
 	<value>10 Yoga Courses</value>

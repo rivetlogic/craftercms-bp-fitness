@@ -11,7 +11,7 @@
 	<h3FirstText>Welcome to Sparta</h3FirstText>
 	<h1SecondText>What is your profession?</h1SecondText>
 	<h1ThirdText/>
-	<buttonText>View More (+)</buttonText>
+	<buttonText_t>View More (+)</buttonText_t>
 	<mediaBanner>	<item>	<key>/site/components/banners/video.xml</key>
 	<value>Video Banner</value>
 	<include>/site/components/banners/video.xml</include>

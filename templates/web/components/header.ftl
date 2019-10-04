@@ -30,7 +30,7 @@
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
 				<h3 class="wow bounceIn" data-wow-delay="0.9s">${contentModel.h3FirstText}</h3>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">${contentModel.h1SecondText}<br>${(contentModel.h1ThirdText)!""}</h1>
-				<a href="${contentModel.buttonSectionLink}" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">${contentModel.buttonText}</a>
+				<a href="${contentModel.buttonSectionLink}" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">${contentModel.buttonText_t}</a>
 			</div>
 
 		</div>
