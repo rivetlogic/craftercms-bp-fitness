@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.9s" <@studio.iceAttr iceGroup="iceCatalogItem" path=contentModel.storeUrl/> >
-	<div class="blog-thumb catalog-item-size" onmouseover='this.style.backgroundImage="url(${contentModel.classImage})"' onmouseout='this.style.backgroundImage="url()"'>
+	<div class="blog-thumb catalog-item-size" onmouseover='this.style.backgroundImage="url(${contentModel.classImage_s})"' onmouseout='this.style.backgroundImage="url()"'>
   	<#assign classDays = "" />
   	<#list contentModel.classDays.item as row>
     	<#if classDays?has_content>

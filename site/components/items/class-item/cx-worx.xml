@@ -12,7 +12,7 @@
 	<titleText_t>CX Worx</titleText_t>
 	<trainerName_t>John Doe</trainerName_t>
 	<classCategory_s>Cardio</classCategory_s>
-	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
+	<classImage_s>/static-assets/images/blog-thumb.jpg</classImage_s>
 	<startTime>2017-05-31T00:00:00.000Z</startTime>
 	<createdDate>2017-5-30T20:33:34.000Z</createdDate>
 	<createdDate_dt>2017-5-30T20:33:34.000Z</createdDate_dt>

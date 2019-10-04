@@ -13,7 +13,7 @@
 	<file-name>body-combat.xml</file-name>
 	<folder-name/>
 	<classCategory_s>Cardio</classCategory_s>
-	<classImage>/static-assets/images/blog-thumb.jpg</classImage>
+	<classImage_s>/static-assets/images/blog-thumb.jpg</classImage_s>
 	<startTime>2017-05-30T20:00:00.000Z</startTime>
 	<createdDate>2017-5-30T20:26:44.000Z</createdDate>
 	<createdDate_dt>2017-5-30T20:26:44.000Z</createdDate_dt>

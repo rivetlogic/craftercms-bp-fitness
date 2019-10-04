@@ -214,7 +214,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>classImage</id>
+               <id>classImage_s</id>
                <iceId>iceCatalogItem</iceId>
                <title>Class Image</title>
                <description/>
