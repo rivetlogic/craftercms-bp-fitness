@@ -7,7 +7,7 @@
             <#if contentModel.displayTitleDescription = 'true'>
                 <div class="col-md-12 col-sm-12 text-center">
 					<h2 style="color:${contentModel.titleColor_s}">${contentModel.titleText_t}</h2>
-					<p>${contentModel.description}</p>
+					<p>${contentModel.description_t}</p>
 				</div>
             </#if>
             
@@ -20,7 +20,7 @@
 						<#if contentModel.quoteStyle == "quote">
                             <i class="fa fa-quote-left"></i>
                         </#if>
-						<h3>${myContentItem.description}</h3>
+						<h3>${myContentItem.description_t}</h3>
 						<h4>${myContentItem.authorFullName} ( ${myContentItem.authorProfession} )</h4>
 					</div>
                 </#list>

@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>textarea</type>
-               <id>description</id>
+               <id>description_t</id>
                <iceId>iceQuoteItem</iceId>
                <title>Description</title>
                <description/>

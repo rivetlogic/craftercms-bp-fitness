@@ -17,5 +17,5 @@
 			</div>
 		</div>
 	</div>
-	<p class="trainer-description">${contentModel.trainerDescription}</p>
+	<p class="trainer-description_t">${contentModel.trainerDescription}</p>
 </div>

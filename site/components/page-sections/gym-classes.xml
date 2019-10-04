@@ -6,7 +6,7 @@
 	<objectId>9330e9b6-331e-1093-f682-715a31719a91</objectId>
 	<internal-name>Classes</internal-name>
 	<titleText_t>Workouts</titleText_t>
-	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
+	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<file-name>gym-classes.xml</file-name>
 	<folder-name/>
 	<items>	<item>	<key>/site/components/items/class-item/bodypump.xml</key>

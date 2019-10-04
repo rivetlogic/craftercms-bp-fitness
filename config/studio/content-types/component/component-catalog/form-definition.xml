@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>description</id>
+               <id>description_t</id>
                <iceId>iceCatalog</iceId>
                <title>Description</title>
                <description/>

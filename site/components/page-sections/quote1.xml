@@ -11,7 +11,7 @@
 	<displayTitleDescription>true</displayTitleDescription>
 	<titleColor_s>#333</titleColor_s>
 	<quoteStyle>quote</quoteStyle>
-	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
+	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<imageBackground/>
 	<quotes>	<item>	<key>/site/components/items/quotes-item/quote1.xml</key>
 	<value>Quote 1</value>

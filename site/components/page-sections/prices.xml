@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Prices</internal-name>
 	<titleText_t>Our Prices</titleText_t>
-	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
+	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<items>	<item>	<key>/site/components/items/price-item/healthy.xml</key>
 	<value>Healthy</value>
 	<include>/site/components/items/price-item/healthy.xml</include>
