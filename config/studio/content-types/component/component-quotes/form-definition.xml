@@ -161,7 +161,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>titleColor</id>
+               <id>titleColor_s</id>
                <iceId>iceQuote</iceId>
                <title>Title Color</title>
                <description/>

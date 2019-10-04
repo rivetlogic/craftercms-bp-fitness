@@ -9,7 +9,7 @@
 	<internal-name>Quotes</internal-name>
 	<titleText_t>Testimonials</titleText_t>
 	<displayTitleDescription>true</displayTitleDescription>
-	<titleColor>#333</titleColor>
+	<titleColor_s>#333</titleColor_s>
 	<quoteStyle>quote</quoteStyle>
 	<description>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description>
 	<imageBackground/>
