@@ -12,7 +12,7 @@
 	<titleColor_s>#333</titleColor_s>
 	<quoteStyle>quote</quoteStyle>
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
-	<imageBackground/>
+	<imageBackground_s/>
 	<quotes>	<item>	<key>/site/components/items/quotes-item/quote1.xml</key>
 	<value>Quote 1</value>
 	<include>/site/components/items/quotes-item/quote1.xml</include>
