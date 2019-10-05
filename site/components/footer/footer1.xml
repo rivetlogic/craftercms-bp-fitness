@@ -4,13 +4,13 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3ee6</objectGroupId>
 	<objectId>3ee64c03-d238-f11a-3aa4-ef26484b8a3d</objectId>
-	<socialNetwork>	<item>	<sns_url>https://www.facebook.com</sns_url>
+	<socialNetwork_o>	<item>	<sns_url>https://www.facebook.com</sns_url>
 	<sns_socialNetwork>facebook</sns_socialNetwork>
 	</item>	<item>	<sns_url>https://www.twitter.com</sns_url>
 	<sns_socialNetwork>twitter</sns_socialNetwork>
 	</item>	<item>	<sns_url>https://www.dribble.com</sns_url>
 	<sns_socialNetwork>dribbble</sns_socialNetwork>
-	</item></socialNetwork>
+	</item></socialNetwork_o>
 	<internal-name>Footer</internal-name>
 	<companyName_t>Crafter Software</companyName_t>
 	<year_s>2017</year_s>

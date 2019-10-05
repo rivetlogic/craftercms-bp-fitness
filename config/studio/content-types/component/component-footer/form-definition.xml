@@ -789,7 +789,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>socialNetwork</id>
+               <id>socialNetwork_o</id>
                <iceId>iceSocial</iceId>
                <title>Social Network</title>
                <description/>
