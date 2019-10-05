@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			
-            <#if contentModel.displayTitleDescription = 'true'>
+            <#if contentModel.displayTitleDescription_b>
                 <div class="col-md-12 col-sm-12 text-center">
 					<h2 style="color:${contentModel.titleColor_s}">${contentModel.titleText_t}</h2>
 					<p>${contentModel.description_t}</p>

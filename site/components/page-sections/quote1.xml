@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Quotes</internal-name>
 	<titleText_t>Testimonials</titleText_t>
-	<displayTitleDescription>true</displayTitleDescription>
+	<displayTitleDescription_b>true</displayTitleDescription_b>
 	<titleColor_s>#333</titleColor_s>
 	<quoteStyle>quote</quoteStyle>
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>

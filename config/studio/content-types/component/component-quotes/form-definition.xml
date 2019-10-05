@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>checkbox</type>
-               <id>displayTitleDescription</id>
+               <id>displayTitleDescription_b</id>
                <iceId>iceQuote</iceId>
                <title>Display Title and Description</title>
                <description/>
