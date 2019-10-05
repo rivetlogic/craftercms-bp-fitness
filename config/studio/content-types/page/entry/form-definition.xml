@@ -255,7 +255,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>controllers</id>
+               <id>controllers_o</id>
                <iceId/>
                <title>Controllers</title>
                <description/>
