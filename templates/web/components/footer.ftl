@@ -15,7 +15,7 @@
 						<h5>Morning</h5>
 						<h4>
                         ${(contentModel.ss_morningFrom_dt?keep_after(" "))?keep_before_last(":")} - 
-                        ${(contentModel.ss_morningTo?keep_after(" "))?keep_before_last(":")}</h4>
+                        ${(contentModel.ss_morningTo_dt?keep_after(" "))?keep_before_last(":")}</h4>
 					</div>
 					<div>
 						<h5>Evening</h5>
