@@ -143,7 +143,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>gymName</id>
+               <id>gymName_t</id>
                <iceId>iceHeaderBar</iceId>
                <title>GYM Name</title>
                <description/>

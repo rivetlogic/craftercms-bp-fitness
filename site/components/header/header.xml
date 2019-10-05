@@ -7,7 +7,7 @@
 	<file-name>header.xml</file-name>
 	<folder-name/>
 	<internal-name>Header</internal-name>
-	<gymName>Spartan GYM</gymName>
+	<gymName_t>Spartan GYM</gymName_t>
 	<h3FirstText>Welcome to Sparta</h3FirstText>
 	<h1SecondText>What is your profession?</h1SecondText>
 	<h1ThirdText/>
