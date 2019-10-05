@@ -450,7 +450,7 @@
             </field>
             <field>
                <type>date-time</type>
-               <id>ss_morningFrom</id>
+               <id>ss_morningFrom_dt</id>
                <iceId>iceSession</iceId>
                <title>From</title>
                <description/>
