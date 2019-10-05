@@ -428,7 +428,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>quoteDescription</id>
+               <id>quoteDescription_html</id>
                <iceId>iceQuote</iceId>
                <title>Quote Description</title>
                <description/>

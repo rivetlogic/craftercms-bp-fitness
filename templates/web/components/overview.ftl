@@ -7,7 +7,7 @@
 				<img src="${contentModel.imageSection_s}" class="img-responsive" alt="${contentModel.titleText_t}">
                 
                 <#if contentModel.displayBlockQuote_b>
-					<blockquote class="wow fadeInUp" data-wow-delay="1.9s" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >${contentModel.quoteDescription}</blockquote>
+					<blockquote class="wow fadeInUp" data-wow-delay="1.9s" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >${contentModel.quoteDescription_html}</blockquote>
                 </#if>
 			</div>
 
