@@ -11,13 +11,13 @@
 	<trainerTitle_t>Yoga Teacher</trainerTitle_t>
 	<trainerDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription_t>
 	<trainerImage_s>/static-assets/images/trainer-img3.jpg</trainerImage_s>
-	<socialMediaLinks>	<item>	<url>http://www.facebook.com</url>
+	<socialMediaLinks_o>	<item>	<url>http://www.facebook.com</url>
 	<socialNetwork>facebook</socialNetwork>
 	</item>	<item>	<url>http://www.twitter.com</url>
 	<socialNetwork>twitter</socialNetwork>
 	</item>	<item>	<url>http://www.behance.com</url>
 	<socialNetwork>behance</socialNetwork>
-	</item></socialMediaLinks>
+	</item></socialMediaLinks_o>
 	<createdDate>2017-5-11T17:41:55.000Z</createdDate>
 	<createdDate_dt>2017-5-11T17:41:55.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-11T17:41:55.000Z</lastModifiedDate>

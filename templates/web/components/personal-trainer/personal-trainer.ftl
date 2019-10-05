@@ -8,8 +8,8 @@
 				<h2>${contentModel.trainerName_t}</h2>
 				<h3>${contentModel.trainerTitle_t}</h3>
 				<ul class="social-icon">
-				    <#if contentModel.socialMediaLinks?? && contentModel.socialMediaLinks.item??>
-                        <#list contentModel.socialMediaLinks.item as item>
+				    <#if contentModel.socialMediaLinks_o?? && contentModel.socialMediaLinks_o.item??>
+                        <#list contentModel.socialMediaLinks_o.item as item>
                             <li><a href="${item.url}" class="fa fa-${item.socialNetwork} wow fadeInUp" data-wow-delay="1s"></a></li>
                         </#list>
                     </#if>
