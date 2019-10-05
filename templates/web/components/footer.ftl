@@ -20,8 +20,8 @@
 					<div>
 						<h5>Evening</h5>
 						<h4>
-                        ${(contentModel.ss_eveningFrom?keep_after(" "))?keep_before_last(":")} - 
-                        ${(contentModel.ss_eveningTo?keep_after(" "))?keep_before_last(":")}</h4>
+                        ${(contentModel.ss_eveningFrom_dt?keep_after(" "))?keep_before_last(":")} - 
+                        ${(contentModel.ss_eveningTo_dt?keep_after(" "))?keep_before_last(":")}</h4>
 					</div>
 			</div>
 

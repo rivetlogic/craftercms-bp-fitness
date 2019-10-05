@@ -25,8 +25,8 @@
 	<tcs_description_t>Nunc id turpis tincidunt dui volutpat hendrerit et efficitur dolor. Morbi quis tempor felis, ut dictum ipsum. Praesent venenatis rutrum interdum.</tcs_description_t>
 	<ss_morningFrom_dt>2017-05-22T10:00:00.000Z</ss_morningFrom_dt>
 	<ss_morningTo_dt>2017-05-23T03:00:00.000Z</ss_morningTo_dt>
-	<ss_eveningFrom>2017-05-22T20:00:00.000Z</ss_eveningFrom>
-	<ss_eveningTo>2017-05-23T01:00:00.000Z</ss_eveningTo>
+	<ss_eveningFrom_dt>2017-05-22T20:00:00.000Z</ss_eveningFrom_dt>
+	<ss_eveningTo_dt>2017-05-23T01:00:00.000Z</ss_eveningTo_dt>
 	<createdDate>2017-5-22T20:19:31.000Z</createdDate>
 	<createdDate_dt>2017-5-22T20:19:31.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-22T20:52:54.000Z</lastModifiedDate>
