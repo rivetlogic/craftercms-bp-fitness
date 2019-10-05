@@ -22,7 +22,7 @@
 	<createdDate_dt>2017-5-10T19:2:18.000Z</createdDate_dt>
 	<lastModifiedDate>2017-7-7T15:40:24.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-7-7T15:40:24.000Z</lastModifiedDate_dt>
-	<navigationMenuList>	<item>	<navigationMenuLabel>Home</navigationMenuLabel>
+	<navigationMenuList_o>	<item>	<navigationMenuLabel>Home</navigationMenuLabel>
 	<navigationMenu>#home</navigationMenu>
 	</item>	<item>	<navigationMenuLabel>About</navigationMenuLabel>
 	<navigationMenu>#overview</navigationMenu>
@@ -34,6 +34,6 @@
 	<navigationMenu>#price</navigationMenu>
 	</item>	<item>	<navigationMenuLabel>Testimonials</navigationMenuLabel>
 	<navigationMenu>#testimonial</navigationMenu>
-	</item></navigationMenuList>
+	</item></navigationMenuList_o>
 	<controller/>
 </component>

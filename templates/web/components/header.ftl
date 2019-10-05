@@ -15,7 +15,7 @@
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right main-navigation">
-            <#list contentModel.navigationMenuList.item as row>
+            <#list contentModel.navigationMenuList_o.item as row>
 				<li><a href="${row.navigationMenu}" class="smoothScroll">${row.navigationMenuLabel}</a></li>
 			</#list>
 			</ul>

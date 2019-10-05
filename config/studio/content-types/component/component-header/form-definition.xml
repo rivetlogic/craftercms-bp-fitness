@@ -193,7 +193,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>navigationMenuList</id>
+               <id>navigationMenuList_o</id>
                <iceId>iceHeaderBar</iceId>
                <title>Navigation Menu List</title>
                <description/>
