@@ -23,17 +23,17 @@
 	<lastModifiedDate>2017-7-7T15:40:24.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-7-7T15:40:24.000Z</lastModifiedDate_dt>
 	<navigationMenuList_o>	<item>	<navigationMenuLabel_t>Home</navigationMenuLabel_t>
-	<navigationMenu>#home</navigationMenu>
+	<navigationMenu_s>#home</navigationMenu_s>
 	</item>	<item>	<navigationMenuLabel_t>About</navigationMenuLabel_t>
-	<navigationMenu>#overview</navigationMenu>
+	<navigationMenu_s>#overview</navigationMenu_s>
 	</item>	<item>	<navigationMenuLabel_t>Trainers</navigationMenuLabel_t>
-	<navigationMenu>#trainer</navigationMenu>
+	<navigationMenu_s>#trainer</navigationMenu_s>
 	</item>	<item>	<navigationMenuLabel_t>Workouts</navigationMenuLabel_t>
-	<navigationMenu>#class</navigationMenu>
+	<navigationMenu_s>#class</navigationMenu_s>
 	</item>	<item>	<navigationMenuLabel_t>Prices</navigationMenuLabel_t>
-	<navigationMenu>#price</navigationMenu>
+	<navigationMenu_s>#price</navigationMenu_s>
 	</item>	<item>	<navigationMenuLabel_t>Testimonials</navigationMenuLabel_t>
-	<navigationMenu>#testimonial</navigationMenu>
+	<navigationMenu_s>#testimonial</navigationMenu_s>
 	</item></navigationMenuList_o>
 	<controller/>
 </component>

@@ -257,7 +257,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>navigationMenu</id>
+                     <id>navigationMenu_s</id>
                      <iceId>core</iceId>
                      <title>Navigation Menu</title>
                      <description/>
