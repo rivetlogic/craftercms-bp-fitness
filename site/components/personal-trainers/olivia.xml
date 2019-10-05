@@ -8,8 +8,8 @@
 	<folder-name/>
 	<internal-name>Olivia</internal-name>
 	<trainerName_t>Olivia</trainerName_t>
-	<trainerTitle>Yoga Teacher</trainerTitle>
-	<trainerDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription>
+	<trainerTitle_t>Yoga Teacher</trainerTitle_t>
+	<trainerDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription_t>
 	<trainerImage>/static-assets/images/trainer-img3.jpg</trainerImage>
 	<socialMediaLinks>	<item>	<url>http://www.facebook.com</url>
 	<socialNetwork>facebook</socialNetwork>

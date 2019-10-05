@@ -6,7 +6,7 @@
 		<div class="trainer-overlay">
 			<div class="trainer-des">
 				<h2>${contentModel.trainerName_t}</h2>
-				<h3>${contentModel.trainerTitle}</h3>
+				<h3>${contentModel.trainerTitle_t}</h3>
 				<ul class="social-icon">
 				    <#if contentModel.socialMediaLinks?? && contentModel.socialMediaLinks.item??>
                         <#list contentModel.socialMediaLinks.item as item>
@@ -17,5 +17,5 @@
 			</div>
 		</div>
 	</div>
-	<p class="trainer-description_t">${contentModel.trainerDescription}</p>
+	<p class="trainer-description_t">${contentModel.trainerDescription_t}</p>
 </div>

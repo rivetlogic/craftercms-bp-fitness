@@ -6,10 +6,10 @@
 	<objectId>c9537e22-2cbe-de14-1009-c62e8fe6cb8e</objectId>
 	<internal-name>Jenny</internal-name>
 	<trainerName_t>Jenny</trainerName_t>
-	<trainerTitle>Body Trainer</trainerTitle>
+	<trainerTitle_t>Body Trainer</trainerTitle_t>
 	<file-name>jenny.xml</file-name>
 	<folder-name/>
-	<trainerDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription>
+	<trainerDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription_t>
 	<trainerImage>/static-assets/images/trainer-img1.jpg</trainerImage>
 	<socialMediaLinks>	<item>	<url>http://www.facebook.com</url>
 	<socialNetwork>facebook</socialNetwork>

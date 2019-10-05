@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>trainerTitle</id>
+               <id>trainerTitle_t</id>
                <iceId>iceTrainer</iceId>
                <title>Trainer Title</title>
                <description/>
@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>trainerDescription</id>
+               <id>trainerDescription_t</id>
                <iceId>iceTrainer</iceId>
                <title>Trainer Description</title>
                <description/>
