@@ -586,7 +586,7 @@
             </field>
             <field>
                <type>label</type>
-               <id>ss_evening</id>
+               <id>ss_evening_t</id>
                <iceId>iceSession</iceId>
                <title>Label Evening</title>
                <description/>
