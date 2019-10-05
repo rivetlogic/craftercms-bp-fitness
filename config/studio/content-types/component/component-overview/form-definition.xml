@@ -405,7 +405,7 @@
          <fields>
             <field>
                <type>checkbox</type>
-               <id>displayBlockQuote</id>
+               <id>displayBlockQuote_b</id>
                <iceId>iceQuote</iceId>
                <title>Display Block Quote</title>
                <description/>
