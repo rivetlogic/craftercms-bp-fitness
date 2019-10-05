@@ -14,14 +14,14 @@
 					<div>
 						<h5>Morning</h5>
 						<h4>
-                        ${(contentModel.ss_morningFrom_dt?keep_after(" "))?keep_before_last(":")} - 
-                        ${(contentModel.ss_morningTo_dt?keep_after(" "))?keep_before_last(":")}</h4>
+                        ${contentModel.ss_morningFrom_dt?time?string.short} - 
+                        ${contentModel.ss_morningTo_dt?time?string.short}</h4>
 					</div>
 					<div>
 						<h5>Evening</h5>
 						<h4>
-                        ${(contentModel.ss_eveningFrom_dt?keep_after(" "))?keep_before_last(":")} - 
-                        ${(contentModel.ss_eveningTo_dt?keep_after(" "))?keep_before_last(":")}</h4>
+                        ${contentModel.ss_eveningFrom_dt?time?string.short} - 
+                        ${contentModel.ss_eveningTo_dt?time?string.short}</h4>
 					</div>
 			</div>
 
@@ -39,7 +39,7 @@
 			<div class="col-md-12 col-sm-12" <@studio.iceAttr iceGroup="iceCopyRight" path=contentModel.storeUrl/> >
 				<p class="copyright-text">Copyright &copy; ${contentModel.year_s} ${contentModel.companyName_t}
 					<#if contentModel.displayThemeCredits_b>
-                        | Design: <a rel="nofollow" href="${contentModel.themeCredits_tURL}" target="_parent">${contentModel.themeCredits_t}</a>
+                        | Design: <a rel="nofollow" href="${contentModel.themeCreditsURL_s}" target="_parent">${contentModel.themeCredits_t}</a>
                     </#if>
                 </p>
 			</div>
