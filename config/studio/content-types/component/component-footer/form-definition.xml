@@ -340,7 +340,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>tcs_description</id>
+               <id>tcs_description_t</id>
                <iceId>iceContentText</iceId>
                <title>Description</title>
                <description/>

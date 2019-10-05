@@ -6,7 +6,7 @@
 
 			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s" <@studio.iceAttr iceGroup="iceContentText" path=contentModel.storeUrl/> >
 				<h2>${contentModel.tcs_titleText_t}</h2>
-				<p>${contentModel.tcs_description}</p>
+				<p>${contentModel.tcs_description_t}</p>
 			</div>
 
 			<div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.9s" <@studio.iceAttr iceGroup="iceSession" path=contentModel.storeUrl/> >
