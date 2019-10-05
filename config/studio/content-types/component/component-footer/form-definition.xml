@@ -853,7 +853,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>sns_socialNetwork</id>
+                     <id>sns_socialNetwork_s</id>
                      <iceId/>
                      <title>Social Network</title>
                      <description/>

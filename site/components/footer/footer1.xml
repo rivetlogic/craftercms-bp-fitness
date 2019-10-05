@@ -5,11 +5,11 @@
 	<objectGroupId>3ee6</objectGroupId>
 	<objectId>3ee64c03-d238-f11a-3aa4-ef26484b8a3d</objectId>
 	<socialNetwork_o>	<item>	<sns_url_s>https://www.facebook.com</sns_url_s>
-	<sns_socialNetwork>facebook</sns_socialNetwork>
+	<sns_socialNetwork_s>facebook</sns_socialNetwork_s>
 	</item>	<item>	<sns_url_s>https://www.twitter.com</sns_url_s>
-	<sns_socialNetwork>twitter</sns_socialNetwork>
+	<sns_socialNetwork_s>twitter</sns_socialNetwork_s>
 	</item>	<item>	<sns_url_s>https://www.dribble.com</sns_url_s>
-	<sns_socialNetwork>dribbble</sns_socialNetwork>
+	<sns_socialNetwork_s>dribbble</sns_socialNetwork_s>
 	</item></socialNetwork_o>
 	<internal-name>Footer</internal-name>
 	<companyName_t>Crafter Software</companyName_t>
