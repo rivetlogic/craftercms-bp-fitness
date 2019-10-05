@@ -247,7 +247,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>themeCreditsURL</id>
+               <id>themeCreditsURL_s</id>
                <iceId>iceCopyRight</iceId>
                <title>Theme Credits URL</title>
                <description/>
