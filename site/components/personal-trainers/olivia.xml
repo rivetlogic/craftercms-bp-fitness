@@ -10,7 +10,7 @@
 	<trainerName_t>Olivia</trainerName_t>
 	<trainerTitle_t>Yoga Teacher</trainerTitle_t>
 	<trainerDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription_t>
-	<trainerImage>/static-assets/images/trainer-img3.jpg</trainerImage>
+	<trainerImage_s>/static-assets/images/trainer-img3.jpg</trainerImage_s>
 	<socialMediaLinks>	<item>	<url>http://www.facebook.com</url>
 	<socialNetwork>facebook</socialNetwork>
 	</item>	<item>	<url>http://www.twitter.com</url>

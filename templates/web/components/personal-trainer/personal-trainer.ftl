@@ -2,7 +2,7 @@
 
 <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="2.3s">
 	<div class="trainer-thumb" <@studio.iceAttr iceGroup="iceTrainer" path=contentModel.storeUrl /> >
-		<img src="${contentModel.trainerImage}" class="img-responsive trainer-image" alt="Trainer">
+		<img src="${contentModel.trainerImage_s}" class="img-responsive trainer-image" alt="Trainer">
 		<div class="trainer-overlay">
 			<div class="trainer-des">
 				<h2>${contentModel.trainerName_t}</h2>
