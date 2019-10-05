@@ -13,7 +13,7 @@
 	<buttonSectionLink_s>#trainer</buttonSectionLink_s>
 	<displayButton_b>true</displayButton_b>
 	<displayBlockQuote>true</displayBlockQuote>
-	<imageSection>/static-assets/images/overview-img.jpg</imageSection>
+	<imageSection_s>/static-assets/images/overview-img.jpg</imageSection_s>
 	<description_t>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat.&lt;/p&gt;
 &lt;p&gt;Fitness web template includes total 2 pages. This is an index (main) page and another is a blog page.&lt;/p&gt;</description_t>
 	<quoteDescription>&lt;p&gt;Fitness is free website template that can be used for any company. You may download, modify and use this layout for your website.&lt;/p&gt;</quoteDescription>

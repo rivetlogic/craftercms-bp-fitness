@@ -244,7 +244,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>imageSection</id>
+               <id>imageSection_s</id>
                <iceId>iceOverview</iceId>
                <title>Image Section</title>
                <description/>
