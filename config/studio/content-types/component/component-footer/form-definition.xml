@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>year</id>
+               <id>year_s</id>
                <iceId>iceCopyRight</iceId>
                <title>Year</title>
                <description/>
