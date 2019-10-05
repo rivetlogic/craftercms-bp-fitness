@@ -20,7 +20,7 @@
 	<include>/site/components/header/header.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></header_o>
-	<pageSections>	<item>	<key>/site/components/page-sections/overview.xml</key>
+	<pageSections_o>	<item>	<key>/site/components/page-sections/overview.xml</key>
 	<value>Overview</value>
 	<include>/site/components/page-sections/overview.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -44,7 +44,7 @@
 	<value>Quotes</value>
 	<include>/site/components/page-sections/quote1.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></pageSections>
+	</item></pageSections_o>
 	<controllers/>
 	<footer>	<item>	<key>/site/components/footer/footer1.xml</key>
 	<value>Footer</value>

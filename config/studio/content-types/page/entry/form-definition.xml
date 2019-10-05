@@ -207,7 +207,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>pageSections</id>
+               <id>pageSections_o</id>
                <iceId>content</iceId>
                <title>Page Sections</title>
                <description/>

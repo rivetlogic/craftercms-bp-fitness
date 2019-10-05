@@ -49,9 +49,9 @@
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
 		</#if>
-        <div <@studio.componentContainerAttr target="pageSections" objectId=contentModel.objectId /> >
-        	<#if contentModel.pageSections.item??>
-              <#list contentModel.pageSections.item as section>
+        <div <@studio.componentContainerAttr target="pageSections_o" objectId=contentModel.objectId /> >
+        	<#if contentModel.pageSections_o.item??>
+              <#list contentModel.pageSections_o.item as section>
                   <@renderComponent component=section />
               </#list>
             </#if>
