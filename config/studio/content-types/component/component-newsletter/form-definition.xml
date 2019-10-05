@@ -310,7 +310,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>backgroundImage</id>
+               <id>backgroundImage_s</id>
                <iceId>iceNewsletter</iceId>
                <title>Background Image</title>
                <description/>
