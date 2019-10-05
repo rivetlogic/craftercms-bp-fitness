@@ -38,7 +38,7 @@
     <#if contentModel.mediaBanner_o.item??>
 		<#assign myItem = siteItemService.getSiteItem(contentModel.mediaBanner_o.item.key) />
         
-		<#if myItem.displayMedia = 'video'>
+		<#if myItem.displayMedia_s = 'video'>
             <div class="header-video">
             	<#if myItem.videoBackground??>
                 	<video playsinline autoplay muted loop class="header-video__teaser-video" id="header-video__teaser-video">

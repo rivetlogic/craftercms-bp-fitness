@@ -10,7 +10,7 @@
 	<file-name>video.xml</file-name>
 	<folder-name/>
 	<internal-name>Video Banner</internal-name>
-	<displayMedia>video</displayMedia>
+	<displayMedia_s>video</displayMedia_s>
 	<videoBackground>/static-assets/videos/gym-promotion.mp4</videoBackground>
 	<createdDate>2017-5-29T16:47:7.000Z</createdDate>
 	<createdDate_dt>2017-5-29T16:47:7.000Z</createdDate_dt>

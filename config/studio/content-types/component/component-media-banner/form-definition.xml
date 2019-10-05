@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>dropdown</type>
-               <id>displayMedia</id>
+               <id>displayMedia_s</id>
                <iceId/>
                <title>DisplayMedia</title>
                <description/>
