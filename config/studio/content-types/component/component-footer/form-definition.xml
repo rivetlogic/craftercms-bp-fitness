@@ -810,7 +810,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>sns_url</id>
+                     <id>sns_url_s</id>
                      <iceId/>
                      <title>URL</title>
                      <description/>

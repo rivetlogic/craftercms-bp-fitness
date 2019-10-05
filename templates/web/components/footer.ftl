@@ -29,7 +29,7 @@
 				<h2>${contentModel.sns_titleText_t}</h2>
 				<ul class="social-icon">
 					<#list contentModel.socialNetwork_o.item as row>
-                        <li><a href="${row.sns_url}" class="fa fa-${row.sns_socialNetwork_o} wow fadeIn" data-wow-delay="1s"></a></li>
+                        <li><a href="${row.sns_url_s}" class="fa fa-${row.sns_socialNetwork} wow fadeIn" data-wow-delay="1s"></a></li>
                     </#list>
 				</ul>
 			</div>
