@@ -35,8 +35,8 @@
 
 		</div>
 	</div>
-    <#if contentModel.mediaBanner.item??>
-		<#assign myItem = siteItemService.getSiteItem(contentModel.mediaBanner.item.key) />
+    <#if contentModel.mediaBanner_o.item??>
+		<#assign myItem = siteItemService.getSiteItem(contentModel.mediaBanner_o.item.key) />
         
 		<#if myItem.displayMedia = 'video'>
             <div class="header-video">
@@ -56,7 +56,7 @@
                         <#assign imageSource = row.bannerImage />
                     </#if>
                 </#list>
-                <input type="hidden" id="mediaBannerImages" data-media-banner-images="${imageSource}"/>
+                <input type="hidden" id="mediaBanner_oImages" data-media-banner-images="${imageSource}"/>
             </#if>
        </#if>
 	</#if>

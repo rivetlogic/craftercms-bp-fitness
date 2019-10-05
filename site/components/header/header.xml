@@ -12,11 +12,11 @@
 	<h1SecondText_t>What is your profession?</h1SecondText_t>
 	<h1ThirdText_t/>
 	<buttonText_t>View More (+)</buttonText_t>
-	<mediaBanner>	<item>	<key>/site/components/banners/video.xml</key>
+	<mediaBanner_o>	<item>	<key>/site/components/banners/video.xml</key>
 	<value>Video Banner</value>
 	<include>/site/components/banners/video.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></mediaBanner>
+	</item></mediaBanner_o>
 	<buttonSectionLink>#overview</buttonSectionLink>
 	<createdDate>2017-5-10T19:2:18.000Z</createdDate>
 	<createdDate_dt>2017-5-10T19:2:18.000Z</createdDate_dt>

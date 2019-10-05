@@ -428,7 +428,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>mediaBanner</id>
+               <id>mediaBanner_o</id>
                <iceId>iceHeaderBanner</iceId>
                <title>Media Banner</title>
                <description/>
