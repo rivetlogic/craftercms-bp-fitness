@@ -41,7 +41,7 @@
         <!-- =========================
             HEADER SECTION
         ============================== -->
-		<@renderComponent component=contentModel.header.item />
+		<@renderComponent component=contentModel.header_o.item />
 
         <!-- =========================
 			PAGE SECTIONS

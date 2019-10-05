@@ -60,7 +60,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>header</id>
+               <id>header_o</id>
                <iceId/>
                <title>Header</title>
                <description/>

@@ -159,7 +159,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>header</id>
+               <id>header_o</id>
                <iceId>core</iceId>
                <title>Header</title>
                <description>It is provider by Section Default if you add a new one you will override it.</description>
