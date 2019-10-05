@@ -60,7 +60,7 @@
         <!-- =========================
             FOOTER SECTION
         ============================== -->
-		<@renderComponent component=contentModel.footer.item />
+		<@renderComponent component=contentModel.footer_o.item />
 
 		<!-- =========================
              SCRIPTS
@@ -75,7 +75,7 @@
               <div class="modal-body">
                 Thanks for contact us and subscribed to our Newsletter service.
               </div>
-              <div class="modal-footer">
+              <div class="modal-footer_o">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>

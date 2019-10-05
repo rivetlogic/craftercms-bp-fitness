@@ -46,9 +46,9 @@
 	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<controllers/>
-	<footer>	<item>	<key>/site/components/footer/footer1.xml</key>
+	<footer_o>	<item>	<key>/site/components/footer/footer1.xml</key>
 	<value>Footer</value>
 	<include>/site/components/footer/footer1.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></footer>
+	</item></footer_o>
 </page>
