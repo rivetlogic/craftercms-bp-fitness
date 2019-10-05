@@ -48,8 +48,8 @@
     		</div>
         <#else>
             <#assign imageSource = "" />
-            <#if myItem.bannerImages.item?? >
-            	<#list myItem.bannerImages.item as row>
+            <#if myItem.bannerImages_o.item?? >
+            	<#list myItem.bannerImages_o.item as row>
                     <#if (imageSource?length > 0) >
                         <#assign imageSource = imageSource + ',' + row.bannerImage />
                     <#else>

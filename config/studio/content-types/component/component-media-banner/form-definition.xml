@@ -156,7 +156,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>bannerImages</id>
+               <id>bannerImages_o</id>
                <iceId/>
                <title>Banner Images</title>
                <description/>

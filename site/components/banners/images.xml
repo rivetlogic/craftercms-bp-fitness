@@ -4,9 +4,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>e6fb</objectGroupId>
 	<objectId>e6fb4f11-7dc7-9c43-7b10-85b92dc11eb5</objectId>
-	<bannerImages>	<item>	<bannerImage>/static-assets/images/home-bg-slider-img1.jpg</bannerImage>
+	<bannerImages_o>	<item>	<bannerImage>/static-assets/images/home-bg-slider-img1.jpg</bannerImage>
 	</item>	<item>	<bannerImage>/static-assets/images/home-bg-slider-img2.jpg</bannerImage>
-	</item></bannerImages>
+	</item></bannerImages_o>
 	<internal-name>Images Banner</internal-name>
 	<file-name>images.xml</file-name>
 	<folder-name/>
