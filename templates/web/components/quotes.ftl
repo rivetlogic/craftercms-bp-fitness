@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
-<section id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >
+<section id="testimonial" class="quotes_o-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >
 	<div class="container">
 		<div class="row">
 			
@@ -14,7 +14,7 @@
 			<!-- Testimonial Owl Carousel section
 			================================================== -->
 			<div id="owl-testimonial" class="owl-carousel">
-				<#list contentModel.quotes.item as myItem>
+				<#list contentModel.quotes_o.item as myItem>
                     <#assign myContentItem =  siteItemService.getSiteItem(myItem.key) />
                     <div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s" <@studio.iceAttr iceGroup="iceQuoteItem" path=myContentItem.storeUrl/> >
 						<#if contentModel.quoteStyle_s == "quote">

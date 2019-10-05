@@ -13,7 +13,7 @@
 	<quoteStyle_s>quote</quoteStyle_s>
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<imageBackground_s/>
-	<quotes>	<item>	<key>/site/components/items/quotes-item/quote1.xml</key>
+	<quotes_o>	<item>	<key>/site/components/items/quotes-item/quote1.xml</key>
 	<value>Quote 1</value>
 	<include>/site/components/items/quotes-item/quote1.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -21,7 +21,7 @@
 	<value>Quote 2</value>
 	<include>/site/components/items/quotes-item/quote2.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></quotes>
+	</item></quotes_o>
 	<createdDate>2017-5-19T19:11:54.000Z</createdDate>
 	<createdDate_dt>2017-5-19T19:11:54.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-22T18:17:15.000Z</lastModifiedDate>
