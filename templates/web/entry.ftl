@@ -7,7 +7,7 @@
       Fitness Template
       http://www.templatemo.com/tm-487-fitness
       -->
-      <title>${model.title}</title>
+      <title>${model.title_t}</title>
       <meta name="description" content="">
       <meta name="author" content="">
       <meta charset="UTF-8">
