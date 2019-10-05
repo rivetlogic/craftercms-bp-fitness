@@ -12,9 +12,9 @@
 	<trainerDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate.</trainerDescription_t>
 	<trainerImage_s>/static-assets/images/trainer-img1.jpg</trainerImage_s>
 	<socialMediaLinks_o>	<item>	<url_s>http://www.facebook.com</url_s>
-	<socialNetwork>facebook</socialNetwork>
+	<socialNetworkName_s>facebook</socialNetworkName_s>
 	</item>	<item>	<url_s>http://www.twitter.com</url_s>
-	<socialNetwork>twitter</socialNetwork>
+	<socialNetworkName_s>twitter</socialNetworkName_s>
 	</item></socialMediaLinks_o>
 	<createdDate>2017-5-11T17:25:9.000Z</createdDate>
 	<createdDate_dt>2017-5-11T17:25:9.000Z</createdDate_dt>

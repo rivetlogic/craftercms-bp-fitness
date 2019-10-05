@@ -336,7 +336,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>socialNetwork</id>
+                     <id>socialNetworkName_s</id>
                      <iceId>page-section</iceId>
                      <title>Social Network</title>
                      <description/>
