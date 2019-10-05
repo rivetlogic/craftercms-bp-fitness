@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.9s" <@studio.iceAttr iceGroup="iceSession" path=contentModel.storeUrl/> >
-				<h2>${contentModel.ss_titleText}</h2>
+				<h2>${contentModel.ss_titleText_t}</h2>
 					<div>
 						<h5>Morning</h5>
 						<h4>
