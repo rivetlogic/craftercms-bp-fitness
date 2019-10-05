@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>trainerList</id>
+               <id>trainerList_o</id>
                <iceId>iceTrainersHeader</iceId>
                <title>Trainer List</title>
                <description/>

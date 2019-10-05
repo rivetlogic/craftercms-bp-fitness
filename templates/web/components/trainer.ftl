@@ -9,7 +9,7 @@
 				<p>${contentModel.description_t}</p>
 			</div>
 
-			<#list contentModel.trainerList.item as trainer>
+			<#list contentModel.trainerList_o.item as trainer>
 				<@renderComponent component=trainer />
 			</#list>
 
