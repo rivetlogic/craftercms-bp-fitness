@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>companyName</id>
+               <id>companyName_t</id>
                <iceId>iceCopyRight</iceId>
                <title>Company Name</title>
                <description/>
