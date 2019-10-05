@@ -224,7 +224,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>emailPlaceHolder</id>
+               <id>emailPlaceHolder_t</id>
                <iceId>iceNewsletter</iceId>
                <title>Email Place Holder</title>
                <description/>

@@ -9,7 +9,7 @@
 	<internal-name>Newsletter</internal-name>
 	<titleText_t>Signup Newsletter</titleText_t>
 	<namePlaceHolder_t>Name</namePlaceHolder_t>
-	<emailPlaceHolder>Email</emailPlaceHolder>
+	<emailPlaceHolder_t>Email</emailPlaceHolder_t>
 	<buttonText_t>Send Message</buttonText_t>
 	<description_t>Get discounts for your personal fitness and gym services now.</description_t>
 	<backgroundImage>/static-assets/images/newsletter-bg.jpg</backgroundImage>
