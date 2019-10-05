@@ -297,7 +297,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>tcs_titleText</id>
+               <id>tcs_titleText_t</id>
                <iceId>iceContentText</iceId>
                <title>Title Text</title>
                <description/>
