@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>namePlaceHolder</id>
+               <id>namePlaceHolder_t</id>
                <iceId>iceNewsletter</iceId>
                <title>Name Place Holder</title>
                <description/>

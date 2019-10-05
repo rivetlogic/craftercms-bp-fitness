@@ -10,7 +10,7 @@
 				<div class="newsletter_detail">
 					<form id="form-submit" action="/api/1/services/message.json" method="post">
 						<div class="col-md-6 col-sm-6">
-							<input name="name" type="text" class="form-control" id="name" placeholder="${contentModel.namePlaceHolder}" required="">
+							<input name="name" type="text" class="form-control" id="name" placeholder="${contentModel.namePlaceHolder_t}" required="">
 					  	</div>
 						<div class="col-md-6 col-sm-6">
 							<input name="email" type="email" class="form-control" id="email" placeholder="${contentModel.emailPlaceHolder}" required="">

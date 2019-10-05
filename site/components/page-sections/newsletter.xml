@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Newsletter</internal-name>
 	<titleText_t>Signup Newsletter</titleText_t>
-	<namePlaceHolder>Name</namePlaceHolder>
+	<namePlaceHolder_t>Name</namePlaceHolder_t>
 	<emailPlaceHolder>Email</emailPlaceHolder>
 	<buttonText_t>Send Message</buttonText_t>
 	<description_t>Get discounts for your personal fitness and gym services now.</description_t>
