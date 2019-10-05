@@ -299,7 +299,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>h3FirstText</id>
+               <id>h3FirstText_t</id>
                <iceId>iceHeaderBanner</iceId>
                <title>H3 First Text</title>
                <description/>
@@ -342,7 +342,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>h1SecondText</id>
+               <id>h1SecondText_t</id>
                <iceId>iceHeaderBanner</iceId>
                <title>H1 Second Text</title>
                <description/>
@@ -385,7 +385,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>h1ThirdText</id>
+               <id>h1ThirdText_t</id>
                <iceId>iceHeaderBanner</iceId>
                <title>H1 Third Text</title>
                <description/>
