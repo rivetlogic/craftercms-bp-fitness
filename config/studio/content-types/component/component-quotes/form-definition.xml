@@ -237,7 +237,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>quoteStyle</id>
+               <id>quoteStyle_s</id>
                <iceId>iceQuote</iceId>
                <title>Quote Style</title>
                <description/>

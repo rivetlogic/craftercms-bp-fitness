@@ -10,7 +10,7 @@
 	<titleText_t>Testimonials</titleText_t>
 	<displayTitleDescription_b>true</displayTitleDescription_b>
 	<titleColor_s>#333</titleColor_s>
-	<quoteStyle>quote</quoteStyle>
+	<quoteStyle_s>quote</quoteStyle_s>
 	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
 	<imageBackground_s/>
 	<quotes>	<item>	<key>/site/components/items/quotes-item/quote1.xml</key>
