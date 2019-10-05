@@ -21,7 +21,7 @@
                             <i class="fa fa-quote-left"></i>
                         </#if>
 						<h3>${myContentItem.description_t}</h3>
-						<h4>${myContentItem.authorFullName} ( ${myContentItem.authorProfession} )</h4>
+						<h4>${myContentItem.authorFullName_t} ( ${myContentItem.authorProfession_t} )</h4>
 					</div>
                 </#list>
 				

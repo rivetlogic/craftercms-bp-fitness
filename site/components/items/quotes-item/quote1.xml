@@ -5,8 +5,8 @@
 	<objectGroupId>c180</objectGroupId>
 	<objectId>c180a341-1556-eac8-cfea-e7b128b98d68</objectId>
 	<internal-name>Quote 1</internal-name>
-	<authorFullName>John Doe</authorFullName>
-	<authorProfession>Engenieer</authorProfession>
+	<authorFullName_t>John Doe</authorFullName_t>
+	<authorProfession_t>Engenieer</authorProfession_t>
 	<file-name>quote1.xml</file-name>
 	<folder-name/>
 	<description_t>Sed dapibus rutrum lobortis. Sed nec interdum nunc, quis sodales ante. Maecenas volutpat congue.</description_t>

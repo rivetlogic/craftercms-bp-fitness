@@ -5,8 +5,8 @@
 	<objectGroupId>cb23</objectGroupId>
 	<objectId>cb237d34-3203-162a-d88f-d6a65f7036a9</objectId>
 	<internal-name>Quote 2</internal-name>
-	<authorFullName>James Job</authorFullName>
-	<authorProfession>Social Assistant</authorProfession>
+	<authorFullName_t>James Job</authorFullName_t>
+	<authorProfession_t>Social Assistant</authorProfession_t>
 	<description_t>Yes! Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue.</description_t>
 	<file-name>quote2.xml</file-name>
 	<folder-name/>
