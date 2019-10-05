@@ -128,7 +128,7 @@
             </field>
             <field>
                <type>video-picker</type>
-               <id>videoBackground</id>
+               <id>videoBackground_s</id>
                <iceId/>
                <title>Video Background</title>
                <description/>

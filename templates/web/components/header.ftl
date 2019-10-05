@@ -40,9 +40,9 @@
         
 		<#if myItem.displayMedia_s = 'video'>
             <div class="header-video">
-            	<#if myItem.videoBackground??>
+            	<#if myItem.videoBackground_s??>
                 	<video playsinline autoplay muted loop class="header-video__teaser-video" id="header-video__teaser-video">
-                    	<source src="${myItem.videoBackground}" type="video/mp4">
+                    	<source src="${myItem.videoBackground_s}" type="video/mp4">
                 	</video>
                 </#if>
     		</div>
