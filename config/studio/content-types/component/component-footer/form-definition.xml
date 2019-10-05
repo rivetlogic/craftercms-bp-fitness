@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>checkbox</type>
-               <id>displayThemeCredits</id>
+               <id>displayThemeCredits_b</id>
                <iceId>iceCopyRight</iceId>
                <title>Display Theme Credits</title>
                <description/>

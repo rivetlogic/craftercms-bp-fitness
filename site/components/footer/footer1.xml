@@ -19,7 +19,7 @@
 	<tcs_titleText>About Fitness</tcs_titleText>
 	<ss_title>Session</ss_title>
 	<sns_titleText>Follow Us</sns_titleText>
-	<displayThemeCredits>true</displayThemeCredits>
+	<displayThemeCredits_b>true</displayThemeCredits_b>
 	<file-name>footer1.xml</file-name>
 	<folder-name/>
 	<tcs_description>Nunc id turpis tincidunt dui volutpat hendrerit et efficitur dolor. Morbi quis tempor felis, ut dictum ipsum. Praesent venenatis rutrum interdum.</tcs_description>
