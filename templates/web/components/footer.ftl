@@ -39,7 +39,7 @@
 			<div class="col-md-12 col-sm-12" <@studio.iceAttr iceGroup="iceCopyRight" path=contentModel.storeUrl/> >
 				<p class="copyright-text">Copyright &copy; ${contentModel.year_s} ${contentModel.companyName_t}
 					<#if contentModel.displayThemeCredits_b>
-                        | Design: <a rel="nofollow" href="${contentModel.themeCreditsURL}" target="_parent">${contentModel.themeCredits}</a>
+                        | Design: <a rel="nofollow" href="${contentModel.themeCredits_tURL}" target="_parent">${contentModel.themeCredits_t}</a>
                     </#if>
                 </p>
 			</div>
