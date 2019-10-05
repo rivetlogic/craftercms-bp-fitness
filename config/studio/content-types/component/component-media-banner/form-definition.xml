@@ -177,7 +177,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>bannerImage</id>
+                     <id>bannerImage_s</id>
                      <iceId/>
                      <title>Banner Image</title>
                      <description/>

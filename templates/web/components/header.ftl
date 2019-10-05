@@ -51,9 +51,9 @@
             <#if myItem.bannerImages_o.item?? >
             	<#list myItem.bannerImages_o.item as row>
                     <#if (imageSource?length > 0) >
-                        <#assign imageSource = imageSource + ',' + row.bannerImage />
+                        <#assign imageSource = imageSource + ',' + row.bannerImage_s />
                     <#else>
-                        <#assign imageSource = row.bannerImage />
+                        <#assign imageSource = row.bannerImage_s />
                     </#if>
                 </#list>
                 <input type="hidden" id="mediaBannerImages" data-media-banner-images="${imageSource}"/>
