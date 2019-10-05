@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="wow fadeInUp col-md-3 col-sm-4" data-wow-delay="1s" <@studio.iceAttr iceGroup="iceSocial" path=contentModel.storeUrl/> >
-				<h2>${contentModel.sns_titleText}</h2>
+				<h2>${contentModel.sns_titleText_t}</h2>
 				<ul class="social-icon">
 					<#list contentModel.socialNetwork.item as row>
                         <li><a href="${row.sns_url}" class="fa fa-${row.sns_socialNetwork} wow fadeIn" data-wow-delay="1s"></a></li>

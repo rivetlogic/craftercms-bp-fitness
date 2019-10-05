@@ -746,7 +746,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>sns_titleText</id>
+               <id>sns_titleText_t</id>
                <iceId>iceSocial</iceId>
                <title>Title Text</title>
                <description/>
