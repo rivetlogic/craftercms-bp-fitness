@@ -365,7 +365,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>buttonSectionLink</id>
+               <id>buttonSectionLink_s</id>
                <iceId>iceButton</iceId>
                <title>Button Section Link</title>
                <description/>

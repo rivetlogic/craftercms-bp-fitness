@@ -17,7 +17,7 @@
 	<include>/site/components/banners/video.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></mediaBanner_o>
-	<buttonSectionLink>#overview</buttonSectionLink>
+	<buttonSectionLink_s>#overview</buttonSectionLink_s>
 	<createdDate>2017-5-10T19:2:18.000Z</createdDate>
 	<createdDate_dt>2017-5-10T19:2:18.000Z</createdDate_dt>
 	<lastModifiedDate>2017-7-7T15:40:24.000Z</lastModifiedDate>

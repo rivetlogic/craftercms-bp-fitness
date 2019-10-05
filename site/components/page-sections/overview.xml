@@ -10,7 +10,7 @@
 	<titleText_t>About Fitness</titleText_t>
 	<buttonText_t>Let us Begin</buttonText_t>
 	<sectionId>overview</sectionId>
-	<buttonSectionLink>#trainer</buttonSectionLink>
+	<buttonSectionLink_s>#trainer</buttonSectionLink_s>
 	<displayButton_b>true</displayButton_b>
 	<displayBlockQuote>true</displayBlockQuote>
 	<imageSection>/static-assets/images/overview-img.jpg</imageSection>
