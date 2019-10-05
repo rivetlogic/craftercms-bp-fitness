@@ -214,7 +214,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>navigationMenuLabel</id>
+                     <id>navigationMenuLabel_t</id>
                      <iceId>core</iceId>
                      <title>Navigation Menu Label</title>
                      <description/>
