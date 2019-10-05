@@ -433,7 +433,7 @@
             </field>
             <field>
                <type>label</type>
-               <id>ss_morning</id>
+               <id>ss_morning_t</id>
                <iceId>iceSession</iceId>
                <title>Label Morning</title>
                <description/>
