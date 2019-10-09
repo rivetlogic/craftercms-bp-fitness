@@ -6,8 +6,8 @@ descriptorVersion: 2
 # Describe the plugin
 plugin:
   type: blueprint
-  id: org.craftercms.blueprint.fitness
-  name: "Crafter CMS Blueprint: Fitness"
+  id: com.rivetlogic.craftercms.blueprint.fitness
+  name: "Fitness"
   tags:
     - blueprint
     - fitness
@@ -18,7 +18,8 @@ plugin:
   description: |
     Fitness is a Crafter Studio template for Fitness GYM or Fitness Club
   website:
-    name: "Crafter CMS Blueprint: Event"
+    name: "Fitness"
+    url: https://github.com/rivetlogic/craftercms-bp-fitness.git
   media:
     screenshots:
       - title: Home Section
@@ -33,7 +34,7 @@ plugin:
   developer:
     company:
       name: Rivet Logic
-      email: support@rivetlogic.com
+      email: info@rivetlogic.com
       url: https://rivetlogic.com
   build:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
