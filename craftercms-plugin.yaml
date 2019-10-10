@@ -7,7 +7,7 @@ descriptorVersion: 2
 plugin:
   type: blueprint
   id: com.rivetlogic.craftercms.blueprint.fitness
-  name: "Fitness"
+  name: Fitness
   tags:
     - blueprint
     - fitness
@@ -16,9 +16,9 @@ plugin:
     minor: 0
     patch: 0
   description: |
-    Fitness is a Crafter Studio template for Fitness GYM or Fitness Club
+    Fitness is a Crafter CMS blueprint for a Fitness Club site
   website:
-    name: "Fitness"
+    name: Fitness
     url: https://github.com/rivetlogic/craftercms-bp-fitness.git
   media:
     screenshots:
@@ -40,8 +40,8 @@ plugin:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
     date: 2019-01-23T00:00:00Z
   license:
-    name: GNU
-    url: https://opensource.org/licenses/GPL-3.0
+    name: MIT
+    url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
     - major: 3
       minor: 1
