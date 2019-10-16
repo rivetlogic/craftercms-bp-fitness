@@ -418,7 +418,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>quotesSource</id>
          <title>Quotes Source</title>
          <interface>item</interface>

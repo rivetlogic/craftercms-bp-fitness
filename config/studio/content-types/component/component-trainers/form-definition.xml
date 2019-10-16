@@ -232,7 +232,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>trainersSource</id>
          <title>Trainers Source</title>
          <interface>item</interface>
