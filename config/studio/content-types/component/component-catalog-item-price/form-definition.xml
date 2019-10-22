@@ -341,7 +341,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>servicesSource</id>
          <title>Services Source</title>
          <interface>item</interface>

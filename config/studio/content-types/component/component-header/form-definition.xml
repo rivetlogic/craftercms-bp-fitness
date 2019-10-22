@@ -581,7 +581,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>mediaBannerTypes</id>
          <title>Media Banner Types</title>
          <interface>item</interface>
@@ -627,7 +627,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>scripts</id>
          <title>Scripts</title>
          <interface>item</interface>

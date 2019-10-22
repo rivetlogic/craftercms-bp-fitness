@@ -111,7 +111,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>headerSource</id>
          <title>Header Source</title>
          <interface>item</interface>
