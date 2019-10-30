@@ -170,7 +170,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>description_t</id>
                <iceId>iceOverview</iceId>
                <title>Description</title>
@@ -427,7 +427,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>quoteDescription_html</id>
                <iceId>iceQuote</iceId>
                <title>Quote Description</title>
