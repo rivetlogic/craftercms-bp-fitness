@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   description: |
     Fitness is a Crafter CMS blueprint for a Fitness Club site
   website:
@@ -40,8 +40,8 @@ plugin:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
     date: 2019-01-23T00:00:00Z
   license:
-    name: GPLv3
-    url: https://www.gnu.org/licenses/gpl-3.0.en.html
+    name: MIT
+    url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
     - major: 3
       minor: 1
