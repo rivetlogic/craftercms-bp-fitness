@@ -1,4 +1,4 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,8 +48,8 @@
         ============================== -->
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
-		</#if>
-        <div <@studio.componentContainerAttr target="pageSections_o" objectId=contentModel.objectId /> >
+		    </#if>
+        <div>
         	<#if contentModel.pageSections_o.item??>
               <#list contentModel.pageSections_o.item as section>
                   <@renderComponent component=section />
@@ -95,6 +95,6 @@
         <script src="/static-assets/js/wow.min.js"></script>
         <script src="/static-assets/js/custom.js"></script>
 
-		<@studio.toolSupport/>	
+      <@studio.initPageBuilder/>
 	</body>
 </html>

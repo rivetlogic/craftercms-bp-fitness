@@ -1,12 +1,16 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
-<section id="trainer" class="parallax-section">
+<@studio.componentRootTag $tag="section" id="trainer" class="parallax-section">
 	<div class="container">
-		<div class="row" <@studio.iceAttr iceGroup="iceTrainersHeader" path=contentModel.storeUrl /> >
+		<div class="row">
 
 			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
-				<h2>${contentModel.titleText_t}</h2>
-				<p>${contentModel.description_t}</p>
+				<@studio.h2 $field="titleText_t">
+					${contentModel.titleText_t}
+				</@studio.h2>
+				<@studio.p $field="description_t">
+					${contentModel.description_t}
+				</@studio.p>
 			</div>
 
 			<#list contentModel.trainerList_o.item as trainer>
@@ -15,4 +19,4 @@
 
 		</div>
 	</div>
-</section>
+</@studio.componentRootTag>

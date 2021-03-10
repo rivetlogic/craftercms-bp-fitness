@@ -1,31 +1,41 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
-<section id="${contentModel.sectionId}" class="parallax-section" <@studio.componentAttr path=contentModel.storeUrl ice=true /> >
-	<div class="container">
-		<div class="row" <@studio.iceAttr iceGroup="iceOverview" path=contentModel.storeUrl /> >
-			<div class="col-md-6 col-sm-12">
-				<img src="${contentModel.imageSection_s}" class="img-responsive" alt="${contentModel.titleText_t}">
-                
-                <#if contentModel.displayBlockQuote_b>
-					<blockquote class="wow fadeInUp" data-wow-delay="1.9s" <@studio.iceAttr iceGroup="iceQuote" path=contentModel.storeUrl /> >${contentModel.quoteDescription_html}</blockquote>
-                </#if>
-			</div>
+<@studio.componentRootTag $tag="section" id=(contentModel.sectionId) class="parallax-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <@studio.img $field="imageSection_s" class="img-responsive" src=(contentModel.imageSection_s) alt=(contentModel.titleText_t) />
+        <#if contentModel.displayBlockQuote_b>
+          <@studio.tag $tag="blockquote" $field="quoteDescription_html" class="wow fadeInUp" $attrs={'data-wow-delay': '1.9s'}>
+            ${contentModel.quoteDescription_html}
+          </@studio.tag>
+        </#if>
+      </div>
 
-			<div class="col-md-1"></div>
+      <div class="col-md-1"></div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
-				<div class="overview-detail">
-					<h2>${contentModel.titleText_t}</h2>
-					${contentModel.description_t}
-                    
-                    <#if contentModel.displayButton_b>
-						<a href="${contentModel.buttonSectionLink_s}" class="btn btn-default smoothScroll" <@studio.iceAttr iceGroup="iceButton" path=contentModel.storeUrl /> >${contentModel.buttonText_t}</a>
-                    </#if>
-				</div>
-			</div>
+      <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+        <div class="overview-detail">
+          <@studio.h2 $field="titleText_t">
+            ${contentModel.titleText_t}
+          </@studio.h2>
 
-			<div class="col-md-1"></div>
+          <@studio.span $field="description_t">
+            ${contentModel.description_t}
+          </@studio.span>
 
-		</div>
-	</div>
-</section>
+          <#if contentModel.displayButton_b>
+            <a href="${contentModel.buttonSectionLink_s}" class="btn btn-default smoothScroll">
+              <@studio.span $field="buttonText_t">
+                ${contentModel.buttonText_t}
+              </@studio.span>
+            </a>
+          </#if>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+
+    </div>
+  </div>
+</@studio.componentRootTag>
