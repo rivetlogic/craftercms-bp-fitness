@@ -186,6 +186,7 @@ VIDEO BACKGROUND CSS
     border-bottom: 2px solid #f9f9f9;
     box-shadow: none;
     margin: 0 !important;
+    z-index: 1010;
 }
 
 .navbar-default .navbar-brand {
@@ -240,7 +241,6 @@ VIDEO BACKGROUND CSS
   color: #000;
   background-color: transparent;
 }
-
 
 
 /*---------------------------------------
