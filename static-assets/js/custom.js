@@ -108,7 +108,12 @@ $(document).ready(function() {
   -------------------------------*/
   new WOW({ mobile: false }).init();
 
+  /* Catalog item */
+  $(document).on('mouseleave', '.catalog-item .blog-thumb', function() {
+    $(this).css('backgroundImage', 'url()');
   });
+
+});
 
   /* .modal-backdrop classes
   -------------------------------*/
