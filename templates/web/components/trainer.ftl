@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="section" id="trainer" class="parallax-section">
+<section id="trainer" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
@@ -12,11 +12,14 @@
 					${contentModel.description_t}
 				</@studio.p>
 			</div>
-
-			<#list contentModel.trainerList_o.item as trainer>
-				<@renderComponent component=trainer />
-			</#list>
-
+			<@studio.tag $field="trainerList_o">
+				<#list contentModel.trainerList_o.item as trainer>
+					<#assign index = trainer?index />
+					<@studio.tag $field="trainerList_o" $index=index class="wow fadeInUp col-md-4 col-sm-6" $attrs={'data-wow-delay': '2.3s'}>
+						<@renderComponent component=trainer />
+					</@studio.tag>
+				</#list>
+			</@studio.tag>
 		</div>
 	</div>
-</@studio.componentRootTag>
+</section>

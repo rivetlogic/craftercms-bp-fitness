@@ -18,9 +18,14 @@
 				</@studio.p>
 			</div>
 			<#if contentModel.items_o?? && contentModel.items_o.item??>
+				<@studio.tag $field="items_o">
 					<#list contentModel.items_o.item as class>
+						<#assign index = class?index />
+						<@studio.tag $field="items_o" $index=index>
 							<@renderComponent component=class />
+						</@studio.tag>
 					</#list>
+				</@studio.tag>
 			</#if>
 		</div>
 	</div>

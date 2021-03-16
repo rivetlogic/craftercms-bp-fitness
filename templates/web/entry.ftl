@@ -49,13 +49,16 @@
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
 		    </#if>
-        <div>
+        <@studio.tag $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
-              <#list contentModel.pageSections_o.item as section>
-                  <@renderComponent component=section />
-              </#list>
-            </#if>
-        </div>
+            <#list contentModel.pageSections_o.item as section>
+              <#assign index = section?index />
+              <@studio.tag $field="pageSections_o" $index=index>
+                <@renderComponent component=section />
+              </@studio.tag>
+            </#list>
+          </#if>
+        </@studio.tag>
         
         <!-- =========================
             FOOTER SECTION

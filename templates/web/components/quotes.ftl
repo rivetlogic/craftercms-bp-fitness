@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="section" id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed">
+<section id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed">
 	<div class="container">
 		<div class="row">
 
@@ -46,4 +46,4 @@
 			</@studio.renderRepeatCollection>
 		</div>
 	</div>
-</@studio.componentRootTag>
+</section>
