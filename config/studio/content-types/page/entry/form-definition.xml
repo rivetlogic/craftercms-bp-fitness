@@ -451,7 +451,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/component-catalog,/component/component-catalog-item,/component/component-catalog-item-price,/component/component-media-banner,/component/component-newsletter,/component/component-overview,/component/component-quote-item,/component/component-personal-trainer,/component/component-quotes,/component/component-service,/component/component-trainers</value>
+							<value>/component/component-catalog,/component/component-media-banner,/component/component-newsletter,/component/component-overview,/component/component-quotes,/component/component-service,/component/component-trainers</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
