@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="div" class="wow fadeInUp col-md-4 col-sm-6" $attrs={'data-wow-delay': '1s' }>
+<@studio.componentRootTag $tag="div" class="wow fadeInUp" $attrs={'data-wow-delay': '1s' }>
 	<div class="pricing__item">
 		<@studio.h3 $field="titleText_t" class="pricing__title">
 			${contentModel.titleText_t}

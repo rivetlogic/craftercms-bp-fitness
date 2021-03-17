@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 
-<@studio.componentRootTag $tag="div" class="catalog-item wow fadeInUp col-md-6 col-sm-12" $attrs={'data-wow-delay': '1.9s' }>
+<div class="catalog-item wow fadeInUp" data-wow-delay="1.9s">
 	<div class="blog-thumb catalog-item-size" onmouseover='this.style.backgroundImage="url(${contentModel.classImage_s})"'>
 		<#assign classDays = "" />
 		<#list contentModel.classDays_o.item as row>
@@ -29,4 +29,4 @@
 			</@studio.span>
 		</h5>
 	</div>
-</@studio.componentRootTag>
+</div>
