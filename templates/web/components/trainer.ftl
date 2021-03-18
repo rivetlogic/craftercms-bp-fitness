@@ -12,14 +12,8 @@
 					${contentModel.description_t}
 				</@studio.p>
 			</div>
-			<@studio.tag $field="trainerList_o">
-				<#list contentModel.trainerList_o.item as trainer>
-					<#assign index = trainer?index />
-					<@studio.tag $field="trainerList_o" $index=index class="wow fadeInUp col-md-4 col-sm-6" $attrs={'data-wow-delay': '2.3s'}>
-						<@renderComponent component=trainer />
-					</@studio.tag>
-				</#list>
-			</@studio.tag>
+
+			<@studio.renderComponentCollection $field="trainerList_o" $itemAttrs={'class': 'wow fadeInUp col-md-4 col-sm-6', 'data-wow-delay': '2.3s'} />
 		</div>
 	</div>
 </section>

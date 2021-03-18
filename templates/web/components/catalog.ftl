@@ -21,7 +21,12 @@
 				<@studio.tag $field="items_o">
 					<#list contentModel.items_o.item as class>
 						<#assign index = class?index />
-						<#assign classItem =  siteItemService.getSiteItem(class.key) />
+						<#if class.component??>
+							<#assign classItem = class.component />
+						<#else>
+							<#assign classItem =  siteItemService.getSiteItem(class.key) />
+						</#if>
+
 						<#assign field = "content-type" />
 						<#if classItem[field] == "/component/component-catalog-item-price" >
 							<#assign columnSize = "col-md-4 col-sm-6" />

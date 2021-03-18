@@ -27,22 +27,28 @@
 				<#-- Nested content values passed down by the macro: -->
 				item, index
 			>
-				<#assign myContentItem =  siteItemService.getSiteItem(item.key) />
+				<div>
+					<#if item.component??>
+						<#assign myContentItem = item.component />
+					<#else>
+						<#assign myContentItem =  siteItemService.getSiteItem(item.key) />
+					</#if>
 
-				<#if contentModel.quoteStyle_s == "quote">
-					<i class="fa fa-quote-left"></i>
-				</#if>
-				<@studio.h3 $model=myContentItem $field="description_t">
-					${myContentItem.description_t}
-				</@studio.h3>
-				<h4>
-					<@studio.span $model=myContentItem $field="authorFullName_t">
-						${myContentItem.authorFullName_t}
-					</@studio.span>
-					( <@studio.span $model=myContentItem $field="authorProfession_t">
-						${myContentItem.authorProfession_t}
-					</@studio.span> )
-				</h4>
+					<#if contentModel.quoteStyle_s == "quote">
+						<i class="fa fa-quote-left"></i>
+					</#if>
+					<@studio.h3 $model=myContentItem $field="description_t">
+						${myContentItem.description_t}
+					</@studio.h3>
+					<h4>
+						<@studio.span $model=myContentItem $field="authorFullName_t">
+							${myContentItem.authorFullName_t}
+						</@studio.span>
+						( <@studio.span $model=myContentItem $field="authorProfession_t">
+							${myContentItem.authorProfession_t}
+						</@studio.span> )
+					</h4>
+				</div>
 			</@studio.renderRepeatCollection>
 		</div>
 	</div>
