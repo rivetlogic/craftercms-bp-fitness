@@ -1,35 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/component-catalog</content-type>	<display-template>/templates/web/components/catalog.ftl</display-template>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>9330</objectGroupId>
-	<objectId>9330e9b6-331e-1093-f682-715a31719a91</objectId>
-	<internal-name>Classes</internal-name>
-	<titleText_t>Workouts</titleText_t>
-	<description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
-	<file-name>gym-classes.xml</file-name>
-	<folder-name/>
-	<items_o>	<item>	<key>/site/components/items/class-item/bodypump.xml</key>
-	<value>Body Pump</value>
-	<include>/site/components/items/class-item/bodypump.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/items/class-item/body-combat.xml</key>
-	<value>Body Combat</value>
-	<include>/site/components/items/class-item/body-combat.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/items/class-item/cx-worx.xml</key>
-	<value>CX Worx</value>
-	<include>/site/components/items/class-item/cx-worx.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/items/class-item/body-balance.xml</key>
-	<value>Body Balance</value>
-	<include>/site/components/items/class-item/body-balance.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></items_o>
-	<createdDate>2017-5-15T20:4:21.000Z</createdDate>
-	<createdDate_dt>2017-5-15T20:4:21.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-30T20:54:21.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-30T20:54:21.000Z</lastModifiedDate_dt>
-	<titleColor_s>#333</titleColor_s>
-	<imageBackground_s/>
+  <content-type>/component/component-catalog</content-type>
+  <display-template>/templates/web/components/catalog.ftl</display-template>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>9330</objectGroupId>
+  <objectId>9330e9b6-331e-1093-f682-715a31719a91</objectId>
+  <internal-name>Classes</internal-name>
+  <titleText_t>Workouts</titleText_t>
+  <description_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo.</description_t>
+  <file-name>gym-classes.xml</file-name>
+  <folder-name/>
+  <items_o>
+    <item>
+      <key>/site/components/items/class-item/bodypump.xml</key>
+      <value>Body Pump</value>
+      <include>/site/components/items/class-item/bodypump.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item>
+      <key>/site/components/items/class-item/body-combat.xml</key>
+      <value>Body Combat</value>
+      <include>/site/components/items/class-item/body-combat.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item>
+      <key>/site/components/items/class-item/cx-worx.xml</key>
+      <value>CX Worx</value>
+      <include>/site/components/items/class-item/cx-worx.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item>
+      <key>/site/components/items/class-item/body-balance.xml</key>
+      <value>Body Balance</value>
+      <include>/site/components/items/class-item/body-balance.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item datasource="TODO" inline="true">
+      <key>a54f7e77-c944-4ac3-9f93-c44f7b7519f8</key>
+      <value>New Catalog Item</value>
+      <component id="a54f7e77-c944-4ac3-9f93-c44f7b7519f8">
+        <content-type>/component/component-catalog-item</content-type>
+        <display-template>/templates/web/components/catalog-item/catalog-item.ftl</display-template>
+        <internal-name>New Catalog Item</internal-name>
+        <file-name>a54f7e77-c944-4ac3-9f93-c44f7b7519f8.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2021-03-18T21:44:05.774Z</createdDate_dt>
+        <lastModifiedDate_dt>2021-03-18T21:44:05.774Z</lastModifiedDate_dt>
+        <objectId>a54f7e77-c944-4ac3-9f93-c44f7b7519f8</objectId>
+        <locale>en</locale>
+        <titleText_t>Voluptate incididunt adipisicing fugiat.</titleText_t>
+        <classCategory_s/>
+        <trainerName_t>Qui consectetur anim dolore.</trainerName_t>
+        <classImage_s>https://via.placeholder.com/150x150</classImage_s>
+        <startTime_dt/>
+        <classDays_o/>
+      </component>
+    </item>
+  </items_o>
+  <createdDate>2017-5-15T20:4:21.000Z</createdDate>
+  <createdDate_dt>2017-5-15T20:4:21.000Z</createdDate_dt>
+  <lastModifiedDate>2017-5-30T20:54:21.000Z</lastModifiedDate>
+  <lastModifiedDate_dt>2021-03-18T21:44:05.776Z</lastModifiedDate_dt>
+  <titleColor_s>#333</titleColor_s>
+  <imageBackground_s/>
 </component>
