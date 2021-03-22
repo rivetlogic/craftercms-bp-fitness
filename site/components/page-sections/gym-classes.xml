@@ -35,32 +35,11 @@
       <include>/site/components/items/class-item/body-balance.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item datasource="TODO" inline="true">
-      <key>a54f7e77-c944-4ac3-9f93-c44f7b7519f8</key>
-      <value>New Catalog Item</value>
-      <component id="a54f7e77-c944-4ac3-9f93-c44f7b7519f8">
-        <content-type>/component/component-catalog-item</content-type>
-        <display-template>/templates/web/components/catalog-item/catalog-item.ftl</display-template>
-        <internal-name>New Catalog Item</internal-name>
-        <file-name>a54f7e77-c944-4ac3-9f93-c44f7b7519f8.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-03-18T21:44:05.774Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-03-18T21:44:05.774Z</lastModifiedDate_dt>
-        <objectId>a54f7e77-c944-4ac3-9f93-c44f7b7519f8</objectId>
-        <locale>en</locale>
-        <titleText_t>Voluptate incididunt adipisicing fugiat.</titleText_t>
-        <classCategory_s/>
-        <trainerName_t>Qui consectetur anim dolore.</trainerName_t>
-        <classImage_s>https://via.placeholder.com/150x150</classImage_s>
-        <startTime_dt/>
-        <classDays_o/>
-      </component>
-    </item>
   </items_o>
   <createdDate>2017-5-15T20:4:21.000Z</createdDate>
   <createdDate_dt>2017-5-15T20:4:21.000Z</createdDate_dt>
   <lastModifiedDate>2017-5-30T20:54:21.000Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-03-18T21:44:05.776Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-03-22T23:16:45.790Z</lastModifiedDate_dt>
   <titleColor_s>#333</titleColor_s>
   <imageBackground_s/>
 </component>
