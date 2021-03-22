@@ -21,7 +21,7 @@
 			<@studio.renderRepeatCollection
 				$field="quotes_o"
 				$containerTag="div"
-				$containerAttributes={'class': 'owl-carousel', 'id': 'owl-testimonial'}
+				$containerAttributes={'class': 'owl-carousel components-container', 'id': 'owl-testimonial'}
 				$itemTag="div"
 				$itemAttributes={'class': 'item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp', 'data-wow-delay': '0.6s'};
 				<#-- Nested content values passed down by the macro: -->

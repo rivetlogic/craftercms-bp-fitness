@@ -17,29 +17,29 @@
 					${contentModel.description_t}
 				</@studio.p>
 			</div>
-			<#if contentModel.items_o?? && contentModel.items_o.item??>
-				<@studio.tag $field="items_o">
-					<#list contentModel.items_o.item as class>
-						<#assign index = class?index />
-						<#if class.component??>
-							<#assign classItem = class.component />
-						<#else>
-							<#assign classItem =  siteItemService.getSiteItem(class.key) />
-						</#if>
+			<@studio.tag $field="items_o" class="col-md-12 col-sm-12 components-container">
+				<#if contentModel.items_o?? && contentModel.items_o.item??>
+						<#list contentModel.items_o.item as class>
+							<#assign index = class?index />
+							<#if class.component??>
+								<#assign classItem = class.component />
+							<#else>
+								<#assign classItem =  siteItemService.getSiteItem(class.key) />
+							</#if>
 
-						<#assign field = "content-type" />
-						<#if classItem[field] == "/component/component-catalog-item-price" >
-							<#assign columnSize = "col-md-4 col-sm-6" />
-						<#else>
-							<#assign columnSize = "col-md-6 col-sm-12" />
-						</#if>
+							<#assign field = "content-type" />
+							<#if classItem[field] == "/component/component-catalog-item-price" >
+								<#assign columnSize = "col-md-4 col-sm-6" />
+							<#else>
+								<#assign columnSize = "col-md-6 col-sm-12" />
+							</#if>
 
-						<@studio.tag $field="items_o" $index=index class="${columnSize}">
-							<@renderComponent component=class />
-						</@studio.tag>
-					</#list>
-				</@studio.tag>
-			</#if>
+							<@studio.tag $field="items_o" $index=index class="${columnSize}">
+								<@renderComponent component=class />
+							</@studio.tag>
+						</#list>
+				</#if>
+			</@studio.tag>
 		</div>
 	</div>
 </section>

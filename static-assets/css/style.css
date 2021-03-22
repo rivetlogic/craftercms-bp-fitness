@@ -1107,3 +1107,7 @@ button.btn.btn-default {
   height: 65px;
   transition: all 0.4s ease-in-out;
 }
+
+.components-container:empty {
+  padding: 50px;
+}
