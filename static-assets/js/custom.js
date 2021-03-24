@@ -175,8 +175,6 @@
         results.hits.forEach(model => {
           const modelId = model.craftercms.id;
           const modelICE = getICE(model, 'quotes_o');
-
-          console.log(modelICE);
           const $container = $(`[model-id="${modelId}"] .owl-wrapper`);
           const $elements = $container.find('.owl-item');
 
@@ -198,10 +196,9 @@
 
       craftercms.guest?.contentController?.operations$
         .pipe(
-          operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION')
+          operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION' && op.args.contentType.id === '/component/component-quote-item')
         )
         .subscribe((op) => {
-
           craftercms.guest.fromTopic('INSERT_OPERATION_COMPLETE')
             .pipe(
               operators.filter(({payload}) => payload.modelId === op.args.modelId)
