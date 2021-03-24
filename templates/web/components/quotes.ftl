@@ -18,38 +18,66 @@
 			<!-- Testimonial Owl Carousel section
 			================================================== -->
 
-			<@studio.renderRepeatCollection
-				$field="quotes_o"
-				$containerTag="div"
-				$containerAttributes={'class': 'owl-carousel components-container', 'id': 'owl-testimonial'}
-				$itemTag="div"
-				$itemAttributes={'class': 'item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp', 'data-wow-delay': '0.6s'};
-				<#-- Nested content values passed down by the macro: -->
-				item, index
-			>
-				<div>
+			<div id="owl-testimonial" class="owl-carousel components-container col-md-12 col-sm-12" model-id="${contentModel.objectId}">
+				<#list contentModel.quotes_o.item as item>
 					<#if item.component??>
 						<#assign myContentItem = item.component />
 					<#else>
 						<#assign myContentItem =  siteItemService.getSiteItem(item.key) />
 					</#if>
+					<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+						<#if contentModel.quoteStyle_s == "quote">
+							<i class="fa fa-quote-left"></i>
+						</#if>
+						<@studio.h3 $model=myContentItem $field="description_t">
+							${myContentItem.description_t}
+						</@studio.h3>
+						<h4>
+							<@studio.span $model=myContentItem $field="authorFullName_t">
+								${myContentItem.authorFullName_t}
+							</@studio.span>
+							( <@studio.span $model=myContentItem $field="authorProfession_t">
+								${myContentItem.authorProfession_t}
+							</@studio.span> )
+						</h4>
+					</div>
+				</#list>
 
-					<#if contentModel.quoteStyle_s == "quote">
-						<i class="fa fa-quote-left"></i>
-					</#if>
-					<@studio.h3 $model=myContentItem $field="description_t">
-						${myContentItem.description_t}
-					</@studio.h3>
-					<h4>
-						<@studio.span $model=myContentItem $field="authorFullName_t">
-							${myContentItem.authorFullName_t}
-						</@studio.span>
-						( <@studio.span $model=myContentItem $field="authorProfession_t">
-							${myContentItem.authorProfession_t}
-						</@studio.span> )
-					</h4>
-				</div>
-			</@studio.renderRepeatCollection>
+
+			</div>
+
+<#--			<@studio.renderRepeatCollection-->
+<#--				$field="quotes_o"-->
+<#--				$containerTag="div"-->
+<#--				$containerAttributes={'class': 'owl-carousel components-container', 'id': 'owl-testimonial'}-->
+<#--				$itemTag="div"-->
+<#--				$itemAttributes={'class': 'item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp', 'data-wow-delay': '0.6s'};-->
+<#--				&lt;#&ndash; Nested content values passed down by the macro: &ndash;&gt;-->
+<#--				item, index-->
+<#--			>-->
+<#--				<div>-->
+<#--					<#if item.component??>-->
+<#--						<#assign myContentItem = item.component />-->
+<#--					<#else>-->
+<#--						<#assign myContentItem =  siteItemService.getSiteItem(item.key) />-->
+<#--					</#if>-->
+
+<#--					<#if contentModel.quoteStyle_s == "quote">-->
+<#--						<i class="fa fa-quote-left"></i>-->
+<#--					</#if>-->
+<#--					<@studio.h3 $model=myContentItem $field="description_t">-->
+<#--						${myContentItem.description_t}-->
+<#--					</@studio.h3>-->
+<#--					<h4>-->
+<#--						<@studio.span $model=myContentItem $field="authorFullName_t">-->
+<#--							${myContentItem.authorFullName_t}-->
+<#--						</@studio.span>-->
+<#--						( <@studio.span $model=myContentItem $field="authorProfession_t">-->
+<#--							${myContentItem.authorProfession_t}-->
+<#--						</@studio.span> )-->
+<#--					</h4>-->
+<#--				</div>-->
+<#--			</@studio.renderRepeatCollection>-->
 		</div>
 	</div>
 </section>

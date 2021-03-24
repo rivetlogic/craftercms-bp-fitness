@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
 	<head>
       <!--
       Fitness Template
@@ -96,6 +96,13 @@
         <script src="/static-assets/js/owl.carousel.min.js"></script>
         <script src="/static-assets/js/smoothscroll.js"></script>
         <script src="/static-assets/js/wow.min.js"></script>
+
+        <script src="https://unpkg.com/rxjs@6.6.0/bundles/rxjs.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/utils/utils.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/classes/classes.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/content/content.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/search/search.umd.js"></script>
+
         <script src="/static-assets/js/custom.js"></script>
 
       <@studio.initPageBuilder/>
