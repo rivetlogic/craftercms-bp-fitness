@@ -137,7 +137,6 @@
         itemsMobile : [479,1],
       });
 
-      const authoring = isAuthoring();
       const { crafterConf } = classes;
 
       crafterConf.configure({
@@ -183,7 +182,7 @@
           });
 
           $elements.each((index, element) => {
-            const elementICE = getICE(model, 'services_o', index);
+            const elementICE = getICE(model, 'quotes_o', index);
 
             Object.keys(elementICE).forEach(key => {
               const value = elementICE[key];
