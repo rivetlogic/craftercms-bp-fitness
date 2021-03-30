@@ -20,9 +20,9 @@
             ${contentModel.titleText_t}
           </@studio.h2>
 
-          <@studio.span $field="description_t">
+          <@studio.tag $field="description_t">
             ${contentModel.description_t}
-          </@studio.span>
+          </@studio.tag>
 
           <#if contentModel.displayButton_b>
             <a href="${contentModel.buttonSectionLink_s}" class="btn btn-default smoothScroll">
