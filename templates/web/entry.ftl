@@ -1,7 +1,7 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
 	<head>
       <!--
       Fitness Template
@@ -48,14 +48,17 @@
         ============================== -->
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
-		</#if>
-        <div <@studio.componentContainerAttr target="pageSections_o" objectId=contentModel.objectId /> >
+		    </#if>
+        <@studio.tag $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
-              <#list contentModel.pageSections_o.item as section>
-                  <@renderComponent component=section />
-              </#list>
-            </#if>
-        </div>
+            <#list contentModel.pageSections_o.item as section>
+              <#assign index = section?index />
+              <@studio.tag $field="pageSections_o" $index=index>
+                <@renderComponent component=section />
+              </@studio.tag>
+            </#list>
+          </#if>
+        </@studio.tag>
         
         <!-- =========================
             FOOTER SECTION
@@ -93,8 +96,15 @@
         <script src="/static-assets/js/owl.carousel.min.js"></script>
         <script src="/static-assets/js/smoothscroll.js"></script>
         <script src="/static-assets/js/wow.min.js"></script>
+
+        <script src="https://unpkg.com/rxjs@6.6.0/bundles/rxjs.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/utils/utils.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/classes/classes.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/content/content.umd.min.js"></script>
+        <script src="/static-assets/js/craftercms-sdk/search/search.umd.js"></script>
+
         <script src="/static-assets/js/custom.js"></script>
 
-		<@studio.toolSupport/>	
+      <@studio.initPageBuilder/>
 	</body>
 </html>

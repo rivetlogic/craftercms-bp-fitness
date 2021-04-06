@@ -1,26 +1,28 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <section id="newsletter" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
-			<div class="wow fadeInUp col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s" <@studio.iceAttr iceGroup="iceNewsletter" path=contentModel.storeUrl /> >
-				<h2>${contentModel.titleText_t}</h2>
-				<p>${contentModel.description_t}</p>
+			<div class="wow fadeInUp col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
+				<@studio.h2 $field="titleText_t">
+					${contentModel.titleText_t}
+				</@studio.h2>
+				<@studio.p $field="description_t">
+					${contentModel.description_t}
+				</@studio.p>
 				<div class="newsletter_detail">
 					<form id="form-submit" action="/api/1/services/message.json" method="post">
 						<div class="col-md-6 col-sm-6">
 							<input name="name" type="text" class="form-control" id="name" placeholder="${contentModel.namePlaceHolder_t}" required="">
-					  	</div>
+						</div>
 						<div class="col-md-6 col-sm-6">
 							<input name="email" type="email" class="form-control" id="email" placeholder="${contentModel.emailPlaceHolder_t}" required="">
-					  	</div>
+						</div>
 						<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
 							<input name="submit" type="submit" class="form-control" id="submit" value="${contentModel.buttonText_t}" >
 						</div>
-				  	</form>
-
-
+					</form>
 				</div>
 			</div>
 
