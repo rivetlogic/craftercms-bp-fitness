@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 14
+    patch: 15
   description: |
     Fitness is a Crafter CMS blueprint for a Fitness Club site
   website:
@@ -76,12 +76,6 @@ plugin:
     - major: 3
       minor: 1
       patch: 14
-    - major: 3
-      minor: 2
-      patch: 0
-    - major: 4
-      minor: 0
-      patch: 0
   crafterCmsEditions:
     - community
     - enterprise
