@@ -6,9 +6,9 @@
       <div class="col-md-6 col-sm-12">
         <@crafter.img $field="imageSection_s" class="img-responsive" src=(contentModel.imageSection_s) alt=(contentModel.titleText_t) />
         <#if contentModel.displayBlockQuote_b>
-          <@crafter.tag $tag="blockquote" $field="quoteDescription_html" class="wow fadeInUp" $attrs={'data-wow-delay': '1.9s'}>
+          <@crafter.blockquote $field="quoteDescription_html" class="wow fadeInUp" $attrs={'data-wow-delay': '1.9s'}>
             ${contentModel.quoteDescription_html}
-          </@crafter.tag>
+          </@crafter.blockquote>
         </#if>
       </div>
 
@@ -20,9 +20,9 @@
             ${contentModel.titleText_t}
           </@crafter.h2>
 
-          <@crafter.tag $field="description_t">
+          <@crafter.div $field="description_t">
             ${contentModel.description_t}
-          </@crafter.tag>
+          </@crafter.div>
 
           <#if contentModel.displayButton_b>
             <a href="${contentModel.buttonSectionLink_s}" class="btn btn-default smoothScroll">

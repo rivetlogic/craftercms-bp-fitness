@@ -51,16 +51,16 @@
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
 		    </#if>
-        <@crafter.tag $field="pageSections_o">
+        <@crafter.div $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
             <#list contentModel.pageSections_o.item as section>
               <#assign index = section?index />
-              <@crafter.tag $field="pageSections_o" $index=index>
+              <@crafter.div $field="pageSections_o" $index=index>
                 <@renderComponent component=section />
-              </@crafter.tag>
+              </@crafter.div>
             </#list>
           </#if>
-        </@crafter.tag>
+        </@crafter.div>
         
         <!-- =========================
             FOOTER SECTION

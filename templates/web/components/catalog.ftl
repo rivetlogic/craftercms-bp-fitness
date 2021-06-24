@@ -17,7 +17,7 @@
 					${contentModel.description_t}
 				</@crafter.p>
 			</div>
-			<@crafter.tag $field="items_o" class="col-md-12 col-sm-12 components-container">
+			<@crafter.div $field="items_o" class="col-md-12 col-sm-12 components-container">
 				<#if contentModel.items_o?? && contentModel.items_o.item??>
 						<#list contentModel.items_o.item as class>
 							<#assign index = class?index />
@@ -34,12 +34,12 @@
 								<#assign columnSize = "col-md-6 col-sm-12" />
 							</#if>
 
-							<@crafter.tag $field="items_o" $index=index class="${columnSize}">
+							<@crafter.div $field="items_o" $index=index class="${columnSize}">
 								<@renderComponent component=class />
-							</@crafter.tag>
+							</@crafter.div>
 						</#list>
 				</#if>
-			</@crafter.tag>
+			</@crafter.div>
 		</div>
 	</div>
 </section>
