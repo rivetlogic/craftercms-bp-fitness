@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -27,8 +27,10 @@
       <!-- Google Font -->
       <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
+      <@crafter.head/>
 	</head>
 	<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+        <@crafter.body_top/>
         <!-- =========================
              PRE LOADER
         ============================== -->
@@ -49,16 +51,16 @@
         <#if menuList?? && menuList?size &gt; 0>
 				MENU LIST IS HERE
 		    </#if>
-        <@studio.tag $field="pageSections_o">
+        <@crafter.div $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
             <#list contentModel.pageSections_o.item as section>
               <#assign index = section?index />
-              <@studio.tag $field="pageSections_o" $index=index>
+              <@crafter.div $field="pageSections_o" $index=index>
                 <@renderComponent component=section />
-              </@studio.tag>
+              </@crafter.div>
             </#list>
           </#if>
-        </@studio.tag>
+        </@crafter.div>
         
         <!-- =========================
             FOOTER SECTION
@@ -105,6 +107,6 @@
 
         <script src="/static-assets/js/custom.js"></script>
 
-      <@studio.initPageBuilder/>
+      <@crafter.body_bottom/>
 	</body>
 </html>

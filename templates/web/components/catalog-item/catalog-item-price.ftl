@@ -1,18 +1,18 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@studio.componentRootTag $tag="div" class="wow fadeInUp" $attrs={'data-wow-delay': '1s' }>
+<@crafter.componentRootTag $tag="div" class="wow fadeInUp" $attrs={'data-wow-delay': '1s' }>
 	<div class="pricing__item">
-		<@studio.h3 $field="titleText_t" class="pricing__title">
+		<@crafter.h3 $field="titleText_t" class="pricing__title">
 			${contentModel.titleText_t}
-		</@studio.h3>
+		</@crafter.h3>
 		<div class="pricing__price">
 			<span class="pricing__currency">$</span>
-			<@studio.span $field="price_t">
+			<@crafter.span $field="price_t">
 				${contentModel.price_t}
-			</@studio.span>
+			</@crafter.span>
 		</div>
 
-		<@studio.renderRepeatCollection
+		<@crafter.renderRepeatCollection
 			$field="services_o"
 			$containerAttributes={'class': 'pricing__feature-list'}
 			$itemAttributes={'class': 'pricing__feature'};
@@ -20,16 +20,16 @@
 			item, index
 		>
 			<#assign myContentItem = siteItemService.getSiteItem(item.key) />
-			<@studio.span $model=myContentItem $field="titleText_t">
+			<@crafter.span $model=myContentItem $field="titleText_t">
 				${myContentItem.titleText_t}
-			</@studio.span>
-		</@studio.renderRepeatCollection>
+			</@crafter.span>
+		</@crafter.renderRepeatCollection>
 		<#if contentModel.displayButton_b>
 			<button class="pricing__action" onclick="location.href = '${contentModel.buttonUrl_s}';">
-				<@studio.span $field="buttonText_t">
+				<@crafter.span $field="buttonText_t">
 					${contentModel.buttonText_t}
-				</@studio.span>
+				</@crafter.span>
 			</button>
 		</#if>
 	</div>
-</@studio.componentRootTag>
+</@crafter.componentRootTag>

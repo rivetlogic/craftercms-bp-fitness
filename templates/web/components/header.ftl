@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     HEADER SECTION
 ============================== -->
@@ -12,9 +12,9 @@
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="#" class="navbar-brand">
-				<@studio.span $field="gymName_t">
+				<@crafter.span $field="gymName_t">
 					${contentModel.gymName_t}
-				</@studio.span>
+				</@crafter.span>
 			</a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -32,22 +32,22 @@
 		<div class="row">
 
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<@studio.h3 $field="h3FirstText_t" class="wow bounceIn" $attrs={'data-wow-delay': '0.9s'}>
+				<@crafter.h3 $field="h3FirstText_t" class="wow bounceIn" $attrs={'data-wow-delay': '0.9s'}>
 					${contentModel.h3FirstText_t}
-				</@studio.h3>
+				</@crafter.h3>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">
-					<@studio.span $field="h1SecondText_t">
+					<@crafter.span $field="h1SecondText_t">
 						${contentModel.h1SecondText_t}
-					</@studio.span>
+					</@crafter.span>
 					<br/>
-					<@studio.span $field="h1ThirdText_t">
+					<@crafter.span $field="h1ThirdText_t">
 						${(contentModel.h1ThirdText_t)!""}
-					</@studio.span>
+					</@crafter.span>
 				</h1>
 				<a href="${contentModel.buttonSectionLink_s}" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">
-					<@studio.span $field="buttonText_t">
+					<@crafter.span $field="buttonText_t">
 						${contentModel.buttonText_t}
-					</@studio.span>
+					</@crafter.span>
 				</a>
 			</div>
 

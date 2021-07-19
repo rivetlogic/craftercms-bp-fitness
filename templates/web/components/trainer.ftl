@@ -1,19 +1,19 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <section id="trainer" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
 			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1.3s">
-				<@studio.h2 $field="titleText_t">
+				<@crafter.h2 $field="titleText_t">
 					${contentModel.titleText_t}
-				</@studio.h2>
-				<@studio.p $field="description_t">
+				</@crafter.h2>
+				<@crafter.p $field="description_t">
 					${contentModel.description_t}
-				</@studio.p>
+				</@crafter.p>
 			</div>
 
-			<@studio.renderComponentCollection
+			<@crafter.renderComponentCollection
 				$field="trainerList_o"
 				class="components-container col-md-12 col-sm-12"
 				$itemAttrs={'class': 'wow fadeInUp col-md-4 col-sm-6', 'data-wow-delay': '2.3s'}

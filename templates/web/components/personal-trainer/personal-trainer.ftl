@@ -1,7 +1,7 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="trainer-thumb">
-	<@studio.img
+	<@crafter.img
 		$field="trainerImage_s"
 		class="img-responsive trainer-image"
 		src=(contentModel.trainerImage_s)
@@ -9,12 +9,12 @@
 	/>
 	<div class="trainer-overlay">
 		<div class="trainer-des">
-			<@studio.h2 $field="trainerName_t">
+			<@crafter.h2 $field="trainerName_t">
 				${contentModel.trainerName_t}
-			</@studio.h2>
-			<@studio.h3 $field="trainerTitle_t">
+			</@crafter.h2>
+			<@crafter.h3 $field="trainerTitle_t">
 				${contentModel.trainerTitle_t}
-			</@studio.h3>
+			</@crafter.h3>
 
 			<ul class="social-icon">
 				<#if contentModel.socialMediaLinks_o?? && contentModel.socialMediaLinks_o.item??>
@@ -26,6 +26,6 @@
 		</div>
 	</div>
 </div>
-<@studio.p $field="trainerDescription_t" class="trainer-description_t">
+<@crafter.p $field="trainerDescription_t" class="trainer-description_t">
 	${contentModel.trainerDescription_t}
-</@studio.p>
+</@crafter.p>

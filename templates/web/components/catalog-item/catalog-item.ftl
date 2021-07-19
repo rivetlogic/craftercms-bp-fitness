@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 
 <div class="catalog-item wow fadeInUp" data-wow-delay="1.9s">
@@ -14,21 +14,21 @@
       </#list>
     </#if>
 		<span class="blog-date">
-			<@studio.span $field="classCategory_s">
+			<@crafter.span $field="classCategory_s">
 				${contentModel.classCategory_s!''}
-			</@studio.span>
+			</@crafter.span>
 			/ ${classDays} - ${contentModel.startTime_dt?time?string.short}
 		</span>
 
-		<@studio.h3 $field="titleText_t" class="blog-title">
+		<@crafter.h3 $field="titleText_t" class="blog-title">
 			${contentModel.titleText_t}
-		</@studio.h3>
+		</@crafter.h3>
 
 		<h5 id="blog-author">
 			by
-			<@studio.span $field="trainerName_t">
+			<@crafter.span $field="trainerName_t">
 				${contentModel.trainerName_t}
-			</@studio.span>
+			</@crafter.span>
 		</h5>
 	</div>
 </div>
