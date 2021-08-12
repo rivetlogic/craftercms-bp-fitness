@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
  
 <#if contentModel.imageBackground_s?? && contentModel.imageBackground_s != "">
@@ -10,14 +10,14 @@
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12 text-center">
-				<@studio.h2 $field="titleText_t" style="color:${contentModel.titleColor_s}">
+				<@crafter.h2 $field="titleText_t" style="color:${contentModel.titleColor_s}">
 					${contentModel.titleText_t}
-				</@studio.h2>
-				<@studio.p $field="description_t">
+				</@crafter.h2>
+				<@crafter.p $field="description_t">
 					${contentModel.description_t}
-				</@studio.p>
+				</@crafter.p>
 			</div>
-			<@studio.tag $field="items_o" class="col-md-12 col-sm-12 components-container">
+			<@crafter.div $field="items_o" class="col-md-12 col-sm-12 components-container">
 				<#if contentModel.items_o?? && contentModel.items_o.item??>
 						<#list contentModel.items_o.item as class>
 							<#assign index = class?index />
@@ -34,12 +34,12 @@
 								<#assign columnSize = "col-md-6 col-sm-12" />
 							</#if>
 
-							<@studio.tag $field="items_o" $index=index class="${columnSize}">
+							<@crafter.div $field="items_o" $index=index class="${columnSize}">
 								<@renderComponent component=class />
-							</@studio.tag>
+							</@crafter.div>
 						</#list>
 				</#if>
-			</@studio.tag>
+			</@crafter.div>
 		</div>
 	</div>
 </section>
