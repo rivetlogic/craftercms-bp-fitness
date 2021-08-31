@@ -147,7 +147,8 @@
          <!-- Additional (also optional) specific overrides -->
          <!-- <delete-required/> -->
          <!-- <bulk-publish-required/> -->
-         <!-- <pu blish-by-commit-required/> -->
+         <!-- <publish-by-commit-required/> -->
+         <!-- <publish-required/> -->
       </comments>
    </publishing>
 </site-config>
