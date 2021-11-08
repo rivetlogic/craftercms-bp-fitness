@@ -12,7 +12,7 @@
 			</@crafter.span>
 		</div>
 
-		<@crafter.renderRepeatCollection
+		<@crafter.renderRepeatGroup
 			$field="services_o"
 			$containerAttributes={'class': 'pricing__feature-list'}
 			$itemAttributes={'class': 'pricing__feature'};
@@ -23,7 +23,7 @@
 			<@crafter.span $model=myContentItem $field="titleText_t">
 				${myContentItem.titleText_t}
 			</@crafter.span>
-		</@crafter.renderRepeatCollection>
+		</@crafter.renderRepeatGroup>
 		<#if contentModel.displayButton_b>
 			<button class="pricing__action" onclick="location.href = '${contentModel.buttonUrl_s}';">
 				<@crafter.span $field="buttonText_t">
