@@ -6,7 +6,7 @@
       <div class="col-md-6 col-sm-12">
         <@crafter.img $field="imageSection_s" class="img-responsive" src=(contentModel.imageSection_s) alt=(contentModel.titleText_t) />
         <#if contentModel.displayBlockQuote_b>
-          <@crafter.blockquote $field="quoteDescription_html" class="wow fadeInUp" $attrs={'data-wow-delay': '1.9s'}>
+          <@crafter.blockquote $field="quoteDescription_html" class="wow fadeInUp" $attributes={'data-wow-delay': '1.9s'}>
             ${contentModel.quoteDescription_html}
           </@crafter.blockquote>
         </#if>

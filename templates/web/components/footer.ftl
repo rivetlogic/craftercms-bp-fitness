@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="footer">
+<@crafter.footer>
 	<div class="container">
 		<div class="row">
 
@@ -61,4 +61,4 @@
 
 		</div>
 	</div>
-</@crafter.componentRootTag>
+</@crafter.footer>

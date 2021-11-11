@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="div" class="wow fadeInUp" $attrs={'data-wow-delay': '1s' }>
+<@crafter.div class="wow fadeInUp" $attributes={'data-wow-delay': '1s' }>
 	<div class="pricing__item">
 		<@crafter.h3 $field="titleText_t" class="pricing__title">
 			${contentModel.titleText_t}
@@ -32,4 +32,4 @@
 			</button>
 		</#if>
 	</div>
-</@crafter.componentRootTag>
+</@crafter.div>

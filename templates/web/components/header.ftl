@@ -32,7 +32,7 @@
 		<div class="row">
 
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<@crafter.h3 $field="h3FirstText_t" class="wow bounceIn" $attrs={'data-wow-delay': '0.9s'}>
+				<@crafter.h3 $field="h3FirstText_t" class="wow bounceIn" $attributes={'data-wow-delay': '0.9s'}>
 					${contentModel.h3FirstText_t}
 				</@crafter.h3>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">
@@ -55,7 +55,7 @@
 	</div>
     <#if contentModel.mediaBanner_o.item??>
 		<#assign myItem = siteItemService.getSiteItem(contentModel.mediaBanner_o.item.key) />
-        
+
 		<#if myItem.displayMedia_s = 'video'>
             <div class="header-video">
             	<#if myItem.videoBackground_s??>
