@@ -15,8 +15,8 @@
 
 			<@crafter.renderComponentCollection
 				$field="trainerList_o"
-				class="components-container col-md-12 col-sm-12"
-				$itemAttrs={'class': 'wow fadeInUp col-md-4 col-sm-6', 'data-wow-delay': '2.3s'}
+        $containerAttributes={'class': 'components-container col-md-12 col-sm-12'}
+        $itemAttributes={'class': 'wow fadeInUp col-md-4 col-sm-6', 'data-wow-delay': '2.3s'}
 			/>
 		</div>
 	</div>
