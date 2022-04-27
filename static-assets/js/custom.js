@@ -17,7 +17,7 @@
 
   function getICE(model, fieldId, index) {
 
-    const iceAttrs = craftercms.guest.getICEAttributes({
+    const iceAttrs = craftercms.xb.getICEAttributes({
       model,
       isAuthoring: isAuthoring(),
       ...(
@@ -193,12 +193,12 @@
 
       });
 
-      craftercms.guest?.contentController?.operations$
+      craftercms.xb?.contentController?.operations$
         .pipe(
           operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION' && op.args.contentType.id === '/component/component-quote-item')
         )
         .subscribe((op) => {
-          craftercms.guest.fromTopic('INSERT_OPERATION_COMPLETE')
+          craftercms.xb.fromTopic('INSERT_OPERATION_COMPLETE')
             .pipe(
               operators.filter(({payload}) => payload.modelId === op.args.modelId)
             )
