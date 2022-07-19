@@ -75,7 +75,13 @@ VIDEO BACKGROUND CSS
 .header-video {
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 95vh;
+}
+
+@media (min-width: 850px) {
+  .header-video {
+    height: 100vh;
+  }
 }
 
 .header-video iframe {
@@ -1129,7 +1135,7 @@ button.btn.btn-default {
   transform: initial !important;
   padding: 2px;
   position: relative;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .craftercms-ice-on #trainer .trainer-overlay .trainer-des {
