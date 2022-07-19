@@ -74,15 +74,8 @@ VIDEO BACKGROUND CSS
 -----------------------------------------*/
 .header-video {
   overflow: hidden;
-}
-
-.header-video iframe,
-.header-video video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .header-video iframe {
@@ -93,6 +86,7 @@ VIDEO BACKGROUND CSS
 .header-video video {
   width: 100%;
   z-index: -900000;
+  max-height: 100%;
 }
 
 .header-video__teaser-video {
@@ -123,6 +117,20 @@ VIDEO BACKGROUND CSS
 #blog-header,
 .catalog-section{
   text-align: center;
+}
+
+#home .banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#home .banner .container {
+  position: absolute;
+  z-index: 10;
 }
 
 .parallax-section {
@@ -1010,6 +1018,7 @@ footer .copyright-text {
 
   #home {
     height: 50vh;
+    margin-bottom: 20px;
   }
 
   #blog-header {
@@ -1110,4 +1119,21 @@ button.btn.btn-default {
 
 .components-container:empty {
   padding: 50px;
+}
+
+
+/* ICE mode */
+
+.craftercms-ice-on #trainer .trainer-overlay {
+  width: 100%;
+  transform: initial !important;
+  padding: 2px;
+  position: relative;
+  opacity: 0.9;
+}
+
+.craftercms-ice-on #trainer .trainer-overlay .trainer-des {
+  position: relative;
+  transform: none;
+  left: unset;
 }
