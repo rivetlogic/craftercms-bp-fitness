@@ -279,7 +279,7 @@ VIDEO BACKGROUND CSS
   background: #26253a;
   border: none;
   border-radius: 0px;
-  color: #999;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 4px;
@@ -1089,6 +1089,14 @@ footer .copyright-text {
 
 }
 
+@media (min-width:768px) and (max-width:991px) {
+  .navbar-default .navbar-nav li a {
+    font-size: 18px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 26px;
+  }
+}
 
 /* .modal-transparent */
 
@@ -1136,4 +1144,19 @@ button.btn.btn-default {
   position: relative;
   transform: none;
   left: unset;
+}
+
+.craftercms-ice-on .navbar {
+  opacity: 1 !important;
+  top: 0 !important;
+}
+
+.craftercms-ice-on #home {
+  margin-top: 52px;
+}
+
+@media (min-width: 768px) {
+  .craftercms-ice-on #home {
+    margin-top: 92px;
+  }
 }
