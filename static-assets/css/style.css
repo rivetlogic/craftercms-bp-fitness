@@ -74,15 +74,8 @@ VIDEO BACKGROUND CSS
 -----------------------------------------*/
 .header-video {
   overflow: hidden;
-}
-
-.header-video iframe,
-.header-video video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .header-video iframe {
@@ -93,11 +86,12 @@ VIDEO BACKGROUND CSS
 .header-video video {
   width: 100%;
   z-index: -900000;
+  max-height: 100%;
 }
 
 .header-video__teaser-video {
   width: 100%;
-  min-height: 400px;
+  min-height: 100%;
   object-fit: cover;
 }
 
@@ -123,6 +117,19 @@ VIDEO BACKGROUND CSS
 #blog-header,
 .catalog-section{
   text-align: center;
+}
+
+#home .banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .banner .container {
+  position: absolute;
+  z-index: 10;
 }
 
 .parallax-section {
@@ -247,20 +254,21 @@ VIDEO BACKGROUND CSS
     Home section              
 -----------------------------------------*/
 #home {
-    background: 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
+  background: 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 40px;
 }
 
 #home h3 {
@@ -271,7 +279,7 @@ VIDEO BACKGROUND CSS
   background: #26253a;
   border: none;
   border-radius: 0px;
-  color: #999;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 4px;
@@ -1010,6 +1018,7 @@ footer .copyright-text {
 
   #home {
     height: 50vh;
+    margin-bottom: 20px;
   }
 
   #blog-header {
@@ -1080,6 +1089,14 @@ footer .copyright-text {
 
 }
 
+@media (min-width:768px) and (max-width:991px) {
+  .navbar-default .navbar-nav li a {
+    font-size: 18px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 26px;
+  }
+}
 
 /* .modal-transparent */
 
@@ -1110,4 +1127,36 @@ button.btn.btn-default {
 
 .components-container:empty {
   padding: 50px;
+}
+
+
+/* ICE mode */
+
+.craftercms-ice-on #trainer .trainer-overlay {
+  width: 100%;
+  transform: initial !important;
+  padding: 2px;
+  position: relative;
+  opacity: 1;
+}
+
+.craftercms-ice-on #trainer .trainer-overlay .trainer-des {
+  position: relative;
+  transform: none;
+  left: unset;
+}
+
+.craftercms-ice-on .navbar {
+  opacity: 1 !important;
+  top: 0 !important;
+}
+
+.craftercms-ice-on #home {
+  margin-top: 52px;
+}
+
+@media (min-width: 768px) {
+  .craftercms-ice-on #home {
+    margin-top: 92px;
+  }
 }

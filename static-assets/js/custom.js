@@ -83,7 +83,7 @@
     /*  smoothscroll
     ----------------------------------------------*/
      $(function() {
-          $('.navbar-default a, #home a, #overview a').bind('click', function(event) {
+          $('#home a, #overview a').bind('click', function(event) {
               var $anchor = $(this);
               $('html, body').stop().animate({
                   scrollTop: $($anchor.attr('href')).offset().top - 49
