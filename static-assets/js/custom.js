@@ -82,15 +82,20 @@
 
     /*  smoothscroll
     ----------------------------------------------*/
-     $(function() {
-          $('#home a, #overview a').bind('click', function(event) {
-              var $anchor = $(this);
-              $('html, body').stop().animate({
-                  scrollTop: $($anchor.attr('href')).offset().top - 49
-              }, 1000);
-              event.preventDefault();
-          });
-      });
+    $(function() {
+         $('.navbar-default a, #home a, #overview a').bind('click', function(event) {
+             const isIceOn = Boolean(document.querySelector('.craftercms-ice-on'));
+             const isIceBypass = Boolean(document.querySelector('.craftercms-ice-bypass'));
+
+             if (!isIceOn || isIceBypass) {
+                 var $anchor = $(this);
+                 $('html, body').stop().animate({
+                     scrollTop: $($anchor.attr('href')).offset().top - 49
+                 }, 1000);
+             }
+             event.preventDefault();
+        });
+    });
 
 
    /* Parallax section

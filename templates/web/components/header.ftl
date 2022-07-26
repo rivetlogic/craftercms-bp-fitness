@@ -21,11 +21,11 @@
 			<@crafter.renderRepeatGroup
 				$field="navigationMenuList_o"
 				$containerTag="ul"
-				$containerAttributes={"class":"nav navbar-nav navbar-right main-navigation"}
+				$containerAttributes={"class":"nav navbar-nav navbar-right"}
 				$itemTag="li";
 				row, index
 			>
-				<a href="${modePreview?then("#", row.navigationMenu_s)}">
+				<a href="${row.navigationMenu_s}">
 					<@crafter.span $field="navigationMenuList_o.navigationMenuLabel_t" $index=index>${row.navigationMenuLabel_t}</@crafter.span>
 				</a>
 			</@crafter.renderRepeatGroup>
