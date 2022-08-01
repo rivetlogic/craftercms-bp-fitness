@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id=(contentModel.sectionId) class="parallax-section">
+<section id="${contentModel.sectionId}" class="parallax-section">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
