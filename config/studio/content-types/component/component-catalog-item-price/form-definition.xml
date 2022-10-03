@@ -340,7 +340,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>servicesSource</id>
 					<title>Services Source</title>
 					<interface>item</interface>

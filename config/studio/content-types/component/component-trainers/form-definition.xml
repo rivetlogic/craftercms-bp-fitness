@@ -231,7 +231,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>trainersSource</id>
 					<title>Trainers Source</title>
 					<interface>item</interface>

@@ -366,7 +366,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>headerSource</id>
 					<title>Header Source</title>
 					<interface>item</interface>
@@ -414,7 +414,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>pageSectionsSource</id>
 					<title>Page Sections Source</title>
 					<interface>item</interface>
@@ -462,7 +462,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>scripts</id>
 					<title>Scripts</title>
 					<interface>item</interface>
@@ -510,7 +510,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>footerSource</id>
 					<title>Footer Source</title>
 					<interface>item</interface>
