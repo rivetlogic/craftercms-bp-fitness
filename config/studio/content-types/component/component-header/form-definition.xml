@@ -626,7 +626,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>mediaBannerTypes</id>
 					<title>Media Banner Types</title>
 					<interface>item</interface>

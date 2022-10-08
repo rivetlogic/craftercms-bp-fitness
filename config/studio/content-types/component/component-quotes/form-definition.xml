@@ -440,7 +440,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>quotesSource</id>
 					<title>Quotes Source</title>
 					<interface>item</interface>
