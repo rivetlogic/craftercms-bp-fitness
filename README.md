@@ -1,6 +1,6 @@
 # Crafter CMS Blueprint: Fitness
 
-**Fitness** is a Crafter Studio template for Fitness GYM or Fitness Club, it's based on a theme developed by  
+**Fitness** is a CrafterCMS template for a gym, it's based on a theme developed by  
  [templatemo](http://www.templatemo.com/tm-487-fitness) where is described as a  "fully responsive one-page template for Fitness GYM Fitness Club."
  
 # Sign Up
