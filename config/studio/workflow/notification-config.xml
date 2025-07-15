@@ -239,7 +239,7 @@
                             </body>
                         </html>]]></body>
             </emailTemplate>
-            
+
             <emailTemplate key="contentExpiringSoon">
                 <subject>Content Expiring Soon</subject>
                 <body><![CDATA[

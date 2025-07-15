@@ -12,9 +12,9 @@ plugin:
     - blueprint
     - fitness
   version:
-    major: 2
-    minor: 1
-    patch: 7
+    major: 3
+    minor: 0
+    patch: 0
   description: |
     Fitness is a Crafter CMS blueprint for a Fitness Club site
   website:
@@ -43,14 +43,6 @@ plugin:
     name: MIT
     url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
-    - major: 4
-      minor: 1
-    - major: 4
-      minor: 2
-    - major: 4
-      minor: 3
-    - major: 4
-      minor: 4
     - major: 5
       minor: 0
   crafterCmsEditions:
