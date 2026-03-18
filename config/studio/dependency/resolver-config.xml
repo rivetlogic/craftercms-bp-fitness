@@ -21,7 +21,7 @@
 
 -->
 <dependency-resolver>
-   <version>5.0.0.7</version>
+   <version>5.0.0.1</version>
    <item-types>
       <item-type>
          <name>page</name>
@@ -39,8 +39,9 @@
                      <find-regex>href=["'](?!http|https|ftp|mailto|tel|#|javascript|\/static-assets\/|\/site\/|\/templates\/|\/config\/|\/scripts\/|\/\/)(\/[^"']+)["']</find-regex>
                      <transforms>
                         <transform>
+                           <!-- This will match the link so the first group contains drops trailing slash or "index.xml" -->
                            <match>href=["'](\/((?!index\.xml)[^"'?#])+((?!index\.xml)[^"'?#\/])+)([^"']*)["']</match>
-                           <replace>/site/website$1</replace>
+                           <replace>/site/website$1/index.xml</replace>
                         </transform>
                      </transforms>
                   </pattern>
@@ -127,8 +128,9 @@
                      <find-regex>href=["'](?!http|https|ftp|mailto|tel|#|javascript|\/static-assets\/|\/site\/|\/templates\/|\/config\/|\/scripts\/|\/\/)(\/[^"']+)["']</find-regex>
                      <transforms>
                         <transform>
+                           <!-- This will match the link so the first group contains drops trailing slash or "index.xml" -->
                            <match>href=["'](\/((?!index\.xml)[^"'?#])+((?!index\.xml)[^"'?#\/])+)([^"']*)["']</match>
-                           <replace>/site/website$1</replace>
+                           <replace>/site/website$1/index.xml</replace>
                         </transform>
                      </transforms>
                   </pattern>
@@ -215,8 +217,9 @@
                      <find-regex>href=["'](?!http|https|ftp|mailto|tel|#|javascript|\/static-assets\/|\/site\/|\/templates\/|\/config\/|\/scripts\/|\/\/)(\/[^"']+)["']</find-regex>
                      <transforms>
                         <transform>
+                           <!-- This will match the link so the first group contains drops trailing slash or "index.xml" -->
                            <match>href=["'](\/((?!index\.xml)[^"'?#])+((?!index\.xml)[^"'?#\/])+)([^"']*)["']</match>
-                           <replace>/site/website$1</replace>
+                           <replace>/site/website$1/index.xml</replace>
                         </transform>
                      </transforms>
                   </pattern>
